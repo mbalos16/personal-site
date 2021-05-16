@@ -18,16 +18,28 @@
 <body>
     <div class="row">
         <!-- Barra Arriba -->
-        <nav class="navbar navbar-lg ">
+        <nav class="navbar navbar-lg navbar-light">
             <a class="navbar-brand px-4 col-lg-9" href="home.html"><img src="img/logo_black.png" width="140"
                     alt="Logo of the webpage."></a>
+                    
             <div class="row  pb-1">
-                <!-- Librar for Social Media -->
+                <!-- Library for Social Media -->
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
                 <!-- Icons -->
                 <a href="https://www.facebook.com/magdalena.m.balos" class="col-1 fa fa-facebook"></a>
                 <a href="https://www.instagram.com/mbalos.design/" class="col-1 fa fa-instagram"></a>
                 <a href="https://www.linkedin.com/in/mar%C3%ADa-magdalena-balos-2a326ba2/" class="col-1 fa fa-linkedin"></a>
+            </div>
+
+            <!-- Burger Menu -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse" id="navbarToggleExternalContent">
+                <div class="bg-dark p-4">
+                    <h5 class="text-white text-right h4">Collapsed content</h5>
+                </div>
             </div>
         </nav>
 
@@ -118,11 +130,11 @@
 </body>
 
 <!-- Footer -->
-<footer class="col fixed-bottom pt-4 pt-md-4 sm-12">
-    <div class="row bg-dark pt-3">
+<footer class="col fixed-bottom sm-12">
+    <div class="row py-5 bg-dark">
         <div class="col-12 text-center pb-1">
-            <img class="mx-4" href="home.html" src="img/logo_white.png" alt="" width="80">
-            <small class="d-block mx-4 pb-4 text-muted"> © All right reserved</small>
+            <img href="home.html" src="img/logo_white.png" alt="" width="80">
+            <small class="d-block text-muted"> © All right reserved</small>
         </div>
     </div>
 </footer>
