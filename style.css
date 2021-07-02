@@ -37,3 +37,7 @@ ul.timeline > li:before {
     height: 20px;
     z-index: 400;
 }
+div .btn {
+background-color: #C93C20;
+border: 0cm;
+}
