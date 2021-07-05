@@ -58,9 +58,9 @@
 
             <div class="row">
                 <!-- Social Media buttons -->                
-                <a target="_blank" href="https://www.instagram.com/mbalos.design/" class="col-1 fa fa-instagram link-dark no-underline"></a>
-                <a target="_blank" href="https://www.linkedin.com/in/mar%C3%ADa-magdalena-balos-2a326ba2/" class="col-1 fa fa-linkedin link-dark no-underline"></a>
-                <a target="_blank" href="https://www.facebook.com/magdalena.m.balos" class="col-1 fa fa-facebook link-dark no-underline"></a>            
+                <a target="_blank" href="https://www.instagram.com/mbalos.design/" class="col-1 mx-2 fa fa-instagram link-dark no-underline"></a>
+                <a target="_blank" href="https://www.linkedin.com/in/mar%C3%ADa-magdalena-balos-2a326ba2/" class="col-1 mx-2 fa fa-linkedin link-dark no-underline"></a>
+                <a target="_blank" href="https://www.facebook.com/magdalena.m.balos" class="col-1 mx-2 fa fa-facebook link-dark no-underline"></a>            
             </div>
 
             <!-- Burger Menu -->
@@ -94,33 +94,98 @@
             </ol>
         </nav>
 
-        <div class="alert alert-warning d-flex align-items-center" role="alert">
-            <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Warning:"><use xlink:href="#exclamation-triangle-fill"/></svg>
-            <div>
-              Under construction! Sorry for the inconvenience :-)
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+        <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+
+         
+         <div class="row">
+             <!-- Left-->
+            <div class="col-lg-9">  
+                <h3>CONTACT ME</h3>
+            </br>
+        
+            <!--Grid column-->
+            <div class="col-md-9 mb-md-0 mb-5">
+                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                    <!--Grid row-->
+                    <div class="row">
+
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="name" name="name" class="form-control">
+                                <label for="name" class="">Your name</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="email" name="email" class="form-control">
+                                <label for="email" class="">Your email</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+
+                    </div>
+                    <!--Grid row-->
+
+                    <!--Grid row-->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="md-form mb-0">
+                                <input type="text" id="subject" name="subject" class="form-control">
+                                <label for="subject" class="">Subject</label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Grid row-->
+
+                    <!--Grid row-->
+                    <div class="row">
+
+                        <!--Grid column-->
+                        <div class="col-md-12">
+
+                            <div class="md-form">
+                                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                <label for="message">Your message</label>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--Grid row-->
+                </form>
+                </br>
+
+                <div class=" text-md-left">
+                    <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                </div>
+                <div class="status">
+
+                </div>
             </div>
-          </div>
+    </div>
 
-        <!-- Description 
-        <div class="row">
+
+            
+
+            <!-- Right -->
             <div class="col-lg-3">
-                <h3 class="pt-5">
-                    HEY YEY!
-                </h3>
-                <p><br /><br />On this page, you might find more about me and my career. Simultaneously you can discover
-                    more about my education, my vision of this world and my hobbies.<br /><br />
-
-                    Please feel free to contact me if you want to talk about some of my projects, design or anything
-                    else. <br /><br />
-                    
-                <h5>ENJOY!</h5>
-            </div>-->
-
-            <!-- Center 
-            <div class="col-lg-9">
-
-            </div>-->
+                <h3>CONTACT INFORMATION</h3>
+                <p>e-mail: mariabalos16@gmail.com </br>
+                phone: +44 7899 866 210 </br>
+                Instagram: <a target="_blank" href="https://www.instagram.com/mbalos.design/" class="link-dark">mbalos.design</a> </br>
+                LinkedIn: <a target="_blank" href="https://www.linkedin.com/in/mar%C3%ADa-magdalena-balos-2a326ba2" class="link-dark">Maria Magdalena Balos</a> </br>
+                </p>
+            </div>
         </div>
+
+
     </div>
 </body>
 
