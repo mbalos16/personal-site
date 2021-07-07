@@ -41,3 +41,18 @@ div .btn {
 background-color: #C93C20;
 border: 0cm;
 }
+
+/* Make video relative */
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /*size equal to 16:9. https://youtu.be/0L8cQ9nRtuE */
+    height: 0;
+}
+
+.videoWrapper iframe{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+}
