@@ -58,9 +58,13 @@ border: 0cm;
 }
 
 .container{
-margin-bottom: 90px;
+    margin-bottom: 90px;
 }
 
 nav > div > .fa{
-margin: auto;
+    margin: auto;
+}
+
+.menuText:hover, nav > div > .fa:hover{
+    text-shadow: 1px 1px 6px #C93C20;
 }
