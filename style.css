@@ -60,3 +60,7 @@ border: 0cm;
 .container{
 margin-bottom: 90px;
 }
+
+nav > div > .fa{
+margin: auto;
+}
