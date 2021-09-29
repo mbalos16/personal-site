@@ -67,4 +67,10 @@ nav > div > .fa{
 
 .menuText:hover, nav > div > .fa:hover{
     text-shadow: 1px 1px 6px #C93C20;
+    
+}
+.menuText {
+    font-weight: 800;
+    font-stretch: condensed;
+    font-size: large;
 }
