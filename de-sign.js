@@ -9,16 +9,16 @@ function sketch_idnameofdiv(p) {
 
   // Constants definition
 
-  const textDe = "de";
-  const textDeColor = "";
-  const textDeStroke = "black";
-  const textDeStrokeWeight = 2;
+  const textDe = "ux";
+  const textDeColor = "#C93C20";
+  const textDeStroke = "";
+  const textDeStrokeWeight = 0;
   const textDeFont = "Roboto";
 
-  const textSign = "sign";
-  const textSignColor = "#C93C20";
+  const textSign = "design";
+  const textSignColor = "";
   const textSignStroke = "#C93C20";
-  const textSignStrokeWeight = 0;
+  const textSignStrokeWeight = 3;
   const textSignFont = "Roboto";
 
   // How much vertical deviations the words "de" and "sign" have. This variable should
