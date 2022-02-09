@@ -94,3 +94,18 @@ nav > div > .fa{
     transform: scale(1.05);
 }
 
+.breadcrumb-item{
+    font-size: small;
+}
+
+.body-text{
+   font-weight:16px;
+}
+
+.cite{
+    font-style: italic;
+    align-content: flex-end;
+}
+.autor{
+    font-size: small;
+}
