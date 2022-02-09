@@ -69,8 +69,8 @@ nav > div > .fa{
 }
 
 .menuText:hover, nav > div > .fa:hover{
-    text-shadow: 1px 1px 6px #C93C20;
-    
+    border-radius: 10px;
+    transform: scale(1.05);
 }
 .menuText {
     font-weight: 800;
