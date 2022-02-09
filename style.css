@@ -72,10 +72,15 @@ nav > div > .fa{
     border-radius: 10px;
     transform: scale(1.05);
 }
+
+/* Texto del navbar*/
+
 .menuText {
-    font-weight: 800;
+    font-weight: 18 px;
     font-stretch: condensed;
     font-size: large;
+    margin:auto;
+    text-align: center;
 }
 
 .card{
