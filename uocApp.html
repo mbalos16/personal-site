@@ -12,6 +12,9 @@
     <!-- Library for Social Media -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <!-- Jquery Library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous">
@@ -37,15 +40,27 @@
 
     <div class="container">
         <!-- Barra Arriba -->
-        <nav class="row navbar navbar-lg navbar-light">
-            <a class="navbar-brand col-5" href="index.html"><img src="img/logo_black.png" width="140" alt="Logo of the webpage."></a>
-            <div class="col-6 justify-content-center">
-                <div class="row">
-                    <a class="d-flex justify-content-center col-md-3 col-xs-12 link-dark no-underline menuText" href="uxDesign.html">UX Design</a>
-                    <a class="d-flex justify-content-center col-md-3 col-xs-12 link-dark no-underline menuText" href="graphicDesign.html">Graphic Design</a>
-                    <a class="d-flex justify-content-center col-md-3 col-xs-12 link-dark no-underline menuText" href="photography.html">Photography</a>
-                    <a class="d-flex justify-content-center col-md-3 col-xs-12 link-dark no-underline menuText" href="about.html">About</a>
-                </div>
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <a class="navbar-brand" href="index.html"><img src="img/logo_black.png" width="140" alt="Logo of the webpage."></a>
+        
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end text-end" id="navbarNav">
+                <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="uxDesign.html">UX Design</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="graphicDesign.html">Graphic Design</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="photography.html">Photography</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+              </ul>
             </div>
         </nav>
 
@@ -307,7 +322,7 @@
         </div>
 
         <!-- Footer -->
-        <footer class="row fixed-bottom py-20 bg-dark pb-1 text-center">
+        <footer class="row  bg-dark text-center" id="footer">
             <div class="col-md-4 p-4">
                 <p class="contact">
                     <a target="_blank" class="col-md-1 fa fa-at contact link-light no-underline">&nbsp;&nbsp;mariabalos16@gmail.com</a><br/>
@@ -332,6 +347,8 @@
             </div>
     </div>
     </footer>
+    <script src="footer_bottom.js"></script>
+
 </body>
 
 </html>
