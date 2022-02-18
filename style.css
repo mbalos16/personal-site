@@ -113,3 +113,8 @@ nav > div > .fa{
 .autor{
     font-size: small;
 }
+
+#footer{
+    width: 100%;
+    margin: 0;
+}
