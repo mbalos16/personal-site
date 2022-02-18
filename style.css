@@ -1,5 +1,8 @@
 body{
     font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height:100vh;
 }
 /* Remove links underline */
 a.no-underline {
@@ -62,6 +65,7 @@ border: 0cm;
 
 .container{
     margin-bottom: 90px;
+    flex: 1;
 }
 
 nav > div > .fa{
