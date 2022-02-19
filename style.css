@@ -122,3 +122,7 @@ nav > div > .fa{
 .navbar li.active {
     border-bottom: 2px solid #C93C20;
 }
+
+.navbar li a {
+    text-align: center;
+}
