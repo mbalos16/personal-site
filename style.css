@@ -118,3 +118,7 @@ nav > div > .fa{
     width: 100%;
     margin: 0;
 }
+
+.navbar li.active {
+    border-bottom: 2px solid #C93C20;
+}
