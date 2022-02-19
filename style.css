@@ -11,38 +11,37 @@ a.no-underline {
 
 /* About timeline */
 ul.timeline {
-    list-style-type: none;
+    list-style: none;
+  }
+  ul.timeline > li {
     position: relative;
-}
+    padding: 10px;
+  }
 
-ul.timeline:before {
-    content: ' ';
-    background: #C93C20;
-    display: inline-block;
-    position: absolute;
-    left: 29px;
-    width: 2px;
-    height: 100%;
-    z-index: 400;
-}
-
-ul.timeline > li {
-    margin: 20px 0;
-    padding-left: 20px;
-}
-
-ul.timeline > li:before {
-    content: ' ';
-    background: white;
-    display: inline-block;
-    position: absolute;
-    border-radius: 50%;
-    border: 3px solid #C93C20;
-    left: 20px;
+  ul.timeline > li:before {
+    content: '';
     width: 20px;
     height: 20px;
+    border-radius: 50%;
+    background: white;
+    border: 3px solid #C93C20;
+    position: absolute;
+    left: -15px;
+    top: 20px;
+    transform: translateY(-40%);
     z-index: 400;
-}
+  }
+  
+  ul.timeline > li:not(:last-child):after {
+    content: '';
+    width: 2px;
+    height: 100%;
+    background: #C93C20;
+    position: absolute;
+    left: -6px;
+    top: 20px;
+  }
+
 div .btn {
 background-color: #C93C20;
 border: 0cm;
