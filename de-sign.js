@@ -18,7 +18,7 @@ function sketch_idnameofdiv(p) {
   const textSign = "design";
   const textSignColor = "";
   const textSignStroke = "#C93C20";
-  const textSignStrokeWeight = 3;
+  const textSignStrokeWeight = 5;
   const textSignFont = "Roboto";
 
   // How much vertical deviations the words "de" and "sign" have. This variable should
