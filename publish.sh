@@ -3,6 +3,13 @@
 # Abort on failure
 set -e
 
+read  -p "Are you sure you want to publish the last version of the dev branch? [Y/N] "  -r
+echo    # (optional) move to a new line
+if [[ ! $REPLY =~ ^[Yy]$ ]]
+then
+    exit 1
+fi
+
 # Get the path of the project
 SCRIPTPATH="$( cd -- "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
 
