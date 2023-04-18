@@ -9,11 +9,11 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-XWRE0SCTC7"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-    gtag('config', 'G-XWRE0SCTC7');
+        gtag('config', 'G-XWRE0SCTC7');
     </script>
 
     <!-- Custom Stylesheet -->
@@ -26,9 +26,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous">
-    </script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous">
+        </script>
     <link rel="icon" href="img/favicon.png">
     <title>Uoc App</title>
 </head>
@@ -38,19 +40,22 @@
     <!-- Icons -->
     <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
         <symbol id="check-circle-fill" fill="currentColor" viewBox="0 0 16 16">
-            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+            <path
+                d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
         </symbol>
         <symbol id="info-fill" fill="currentColor" viewBox="0 0 16 16">
-            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+            <path
+                d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" />
         </symbol>
         <symbol id="exclamation-triangle-fill" fill="currentColor" viewBox="0 0 16 16">
-            <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+            <path
+                d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
         </symbol>
     </svg>
 
     <div class="container">
         <!-- Barra Arriba -->
-       <nav class="navbar navbar-expand-lg navbar-light ">
+        <nav class="navbar navbar-expand-lg navbar-light ">
             <a class="navbar-brand" href="index.html"><img src="img/logo_black.png" width="140"
                     alt="Maria Balos | UX designer"></a>
 
@@ -92,34 +97,36 @@
             <div class="row">
                 <div class="col">
                     <p>
-                        <ul>
-                            <p>This project is a work of discovery and research in the field of sustainability with a focus on the environmental impact of electrical and electronic waste in the daily life of human beings.
-                            </p>
-                            <li><strong> Duration:</strong> 3 months</li>
-                            <li><strong>Role:</strong> My role in this project was as an UX researcher. </li>
-                            <li><strong>The Problem:</strong> Bla bla bla </li>
-                            <li><strong> The assignment:</strong> Bla bla bla </li>
-                            <li><strong>Responsabilities:</strong> Bla bla bla </li>
-                            <li class="mt-4"><strong>Pain Point:</strong>
-                                <ul>
-                                    <li>
-                                        Bla bla bla
-                                    </li>
-                                    <li>
-                                        Bla bla bla
-                                    </li>
-                                    <li>
-                                        Bla bla bla
-                                    </li>
-                                    <li>
-                                        Bla bla bla
-                                    </li>
-                                    <li>
-                                        Bla bla bla
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
+                    <ul>
+                        <p>This project is a work of discovery and research in the field of sustainability with a focus
+                            on the environmental impact of electrical and electronic waste in the daily life of human
+                            beings.
+                        </p>
+                        <li><strong> Duration:</strong> 3 months</li>
+                        <li><strong>Role:</strong> My role in this project was as an UX researcher. </li>
+                        <li><strong>The Problem:</strong> Bla bla bla </li>
+                        <li><strong> The assignment:</strong> Bla bla bla </li>
+                        <li><strong>Responsabilities:</strong> Bla bla bla </li>
+                        <li class="mt-4"><strong>Pain Point:</strong>
+                            <ul>
+                                <li>
+                                    Bla bla bla
+                                </li>
+                                <li>
+                                    Bla bla bla
+                                </li>
+                                <li>
+                                    Bla bla bla
+                                </li>
+                                <li>
+                                    Bla bla bla
+                                </li>
+                                <li>
+                                    Bla bla bla
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
                     </p>
                 </div>
             </div>
@@ -129,7 +136,8 @@
                     <h3>Research Question</h3>
                     <!-- Horizontal line -->
                     <hr class="bg-black" />
-                    <p> “What can we do at the citizen level to act on the life cycle of electronic products from a holistic perspective that takes into account the three R's: Reduce, Reuse and Recycle?” 
+                    <p> “What can we do at the citizen level to act on the life cycle of electronic products from a
+                        holistic perspective that takes into account the three R's: Reduce, Reuse and Recycle?”
                     </p>
                 </div>
 
@@ -142,34 +150,35 @@
                     </p>
                     <ul>
                         <li>
-                            What new life do users usually give to obsolete products? 
+                            What new life do users usually give to obsolete products?
                         </li>
                         <li>
                             What does the user need to know to be able to recycle?
                         </li>
                         <li>
-                            Where and how do users recycle their ewaste? If it is through a recycling center, how to offer the location of the recycling centers?   
+                            Where and how do users recycle their ewaste? If it is through a recycling center, how to
+                            offer the location of the recycling centers?
                         </li>
                         <li>
-                            Does the user know the consequences of recycling or not doing it? 
+                            Does the user know the consequences of recycling or not doing it?
                         </li>
                         <li>
-                            What redesign projects can we offer to motivate people to reuse? 
+                            What redesign projects can we offer to motivate people to reuse?
                         </li>
                         <li>
-                            How to buy sustainably? What is sustainable consumption? 
+                            How to buy sustainably? What is sustainable consumption?
                         </li>
                         <li>
-                            What information does the user need in order not to produce e-waste? 
+                            What information does the user need in order not to produce e-waste?
                         </li>
                         <li>
-                            At what point in the life of the product must information on recycling be provided?  
+                            At what point in the life of the product must information on recycling be provided?
                         </li>
                         <li>
-                            How do we connect users who donate with users who receive donations? 
+                            How do we connect users who donate with users who receive donations?
                         </li>
                         <li>
-                            What type of service or platform does the user need to solve their needs? 
+                            What type of service or platform does the user need to solve their needs?
                         </li>
                     </ul>
                 </div>
@@ -177,20 +186,30 @@
                     <h3>Desk Research</h3>
                     <!-- Horizontal line -->
                     <hr class="bg-black" />
-                    <p> Desk research, also called secondary research is about reviewing previous research findings to make an idea about the field before digging in. Here are some insights:</p>
+                    <p> Desk research, also called secondary research is about reviewing previous research findings to
+                        make an idea about the field before digging in. Here are some insights:</p>
                     <ul>
                         <li>
-                            First European regulation: Directive 2002/96/CE of the European Parliament and of the Council of January 27, 2003, says that governments take appropriate measures to minimize the disposal of waste electrical and electronic equipment (WEEE) as unsorted municipal waste and achieve a high degree of separate collection of WEEE.
+                            First European regulation: Directive 2002/96/CE of the European Parliament and of the
+                            Council of January 27, 2003, says that governments take appropriate measures to minimize the
+                            disposal of waste electrical and electronic equipment (WEEE) as unsorted municipal waste and
+                            achieve a high degree of separate collection of WEEE.
                         </li>
                         <li>
-                            Report: The Global E-waste Monitor 2020 Report: In 2019, the world generated a staggering 53.6 tonnes of e-waste, an average of 7.3kg per capita.
+                            Report: The Global E-waste Monitor 2020 Report: In 2019, the world generated a staggering
+                            53.6 tonnes of e-waste, an average of 7.3kg per capita.
                         </li>
                         <li>
-                            Book: Made to Throw Away - The Irrationality of Planned Obsolescence says that "[...] if we are able to give up an excess of material comfort, that represents a liberation of creativity, a rebirth of good coexistence and the possibility of leading a decent life" 
+                            Book: Made to Throw Away - The Irrationality of Planned Obsolescence says that "[...] if we
+                            are able to give up an excess of material comfort, that represents a liberation of
+                            creativity, a rebirth of good coexistence and the possibility of leading a decent life"
                         </li>
                         <li>
-                            Article Bitcoint’s growing e-waste problem from the magazine “Resources, Conservation and Recycling”: the lifetime of a bitcoin mining device is less than 1.29 years. Based on this data, the creators of the article calculated the amount of electronic waste per bitcoin, reaching a result of 272g per transaction, which is equivalent to 112.5 million in 2020. 
-                            
+                            Article Bitcoint’s growing e-waste problem from the magazine “Resources, Conservation and
+                            Recycling”: the lifetime of a bitcoin mining device is less than 1.29 years. Based on this
+                            data, the creators of the article calculated the amount of electronic waste per bitcoin,
+                            reaching a result of 272g per transaction, which is equivalent to 112.5 million in 2020.
+
                         </li>
                     </ul>
                 </div>
@@ -198,7 +217,10 @@
                     <h3>Competitive Audit</h3>
                     <!-- Horizontal line -->
                     <hr class="bg-black" />
-                    <p>UX benchmarking is an effective method for understanding how people use and think about an interface, whether it’s for a website, software, or mobile app. For this e-waste project, I was looking for some direct and indirect competitors and I analyzed the most significant services they offer to understand the actual market. 
+                    <p>UX benchmarking is an effective method for understanding how people use and think about an
+                        interface, whether it’s for a website, software, or mobile app. For this e-waste project, I was
+                        looking for some direct and indirect competitors and I analyzed the most significant services
+                        they offer to understand the actual market.
 
                     </p>
                     <a href=""><img class="card-img-top mb-2" src="img/benchmark.jpg" alt="Proto-persona"></a>
@@ -213,11 +235,13 @@
                     <hr class="bg-black" />
                     <div class="row">
                         <div class="col-6">
-                            <p>This research method helps us divide our target audience based on our accessibility to them and the insights they would provide us.</p>
-                            </div>
-                            <div class="col-6">
-                                <a href=""><img class="card-img-top mb-2" src="img/2x2.jpg" alt="Proto-persona digital version"></a>
-                            </div>
+                            <p>This research method helps us divide our target audience based on our accessibility to
+                                them and the insights they would provide us.</p>
+                        </div>
+                        <div class="col-6">
+                            <a href=""><img class="card-img-top mb-2" src="img/2x2.jpg"
+                                    alt="Proto-persona digital version"></a>
+                        </div>
                     </div>
                     <a href=""><img class="card-img-top mb-2" src="" alt=""></a>
                 </div>
@@ -228,16 +252,19 @@
                     <h3>Proto-persona</h3>
                     <!-- Horizontal line -->
                     <hr class="bg-black" />
-                    <p>We use proto-persona in UX Research to identify in advance the group of people from whom we can learn a lot about our product and service.</p>
+                    <p>We use proto-persona in UX Research to identify in advance the group of people from whom we can
+                        learn a lot about our product and service.</p>
                     <div class="row">
                         <div class="col-6">
-                            <a href=""><img class="card-img-top mb-2" src="img/protopersona.jpg" alt="Proto-persona"></a>
-                            </div>
-                            <div class="col-6">
-                                <a href=""><img class="card-img-top mb-2" src="img/protopersona2.jpg" alt="Proto-persona digital version"></a>
-                            </div>
+                            <a href=""><img class="card-img-top mb-2" src="img/protopersona.jpg"
+                                    alt="Proto-persona"></a>
+                        </div>
+                        <div class="col-6">
+                            <a href=""><img class="card-img-top mb-2" src="img/protopersona2.jpg"
+                                    alt="Proto-persona digital version"></a>
+                        </div>
                     </div>
-                    
+
                     <a href=""><img class="card-img-top mb-2" src="" alt=""></a>
                 </div>
             </div>
@@ -248,7 +275,10 @@
                     <!-- Horizontal line -->
                     <hr class="bg-black" />
                     <p>
-                        A screener is a questionnaire that helps researchers identify the right people—those who have the attributes and qualities needed for a specific study. For this project, I prepared a three questions questionnaire that was the filter for the user's interviews. This way I make sure I was focusing on the real users.
+                        A screener is a questionnaire that helps researchers identify the right people—those who have
+                        the attributes and qualities needed for a specific study. For this project, I prepared a three
+                        questions questionnaire that was the filter for the user's interviews. This way I make sure I
+                        was focusing on the real users.
                     </p>
 
                     <p>
@@ -262,7 +292,7 @@
                             Between 20-40 years - accepted
                         </li>
                         <li>
-                            Between 40-65 years - accepted 
+                            Between 40-65 years - accepted
                         </li>
                         <li>
                             Over 65 years - rejected
@@ -270,7 +300,9 @@
                     </ul>
 
                     <p>
-                        2. How often do you usually buy technological and electronic products (Understanding by these products both small devices such as iPhone, digital watches, etc. and large devices: refrigerators, televisions, computers, etc…)
+                        2. How often do you usually buy technological and electronic products (Understanding by these
+                        products both small devices such as iPhone, digital watches, etc. and large devices:
+                        refrigerators, televisions, computers, etc…)
                     </p>
                     <ul>
                         <li>
@@ -301,7 +333,7 @@
                             I've never been too worried about being - rejected
                         </li>
                         <li>
-                            None of the above - accepted 
+                            None of the above - accepted
                         </li>
                     </ul>
                 </div>
@@ -312,7 +344,9 @@
                     <h3>User Interview</h3>
                     <!-- Horizontal line -->
                     <hr class="bg-black" />
-                    <p>I've used this method to make sure I had a first-hand account of experiences and opinions related to e-waste. I made a total of five online interviews with people being part of the gold and silver 2x2 diagram.</p>
+                    <p>I've used this method to make sure I had a first-hand account of experiences and opinions related
+                        to e-waste. I made a total of five online interviews with people being part of the gold and
+                        silver 2x2 diagram.</p>
                     <a href=""><img class="card-img-top mb-2" src="" alt=""></a>
                 </div>
             </div>
@@ -323,9 +357,13 @@
                     <!-- Horizontal line -->
                     <hr class="bg-black" />
                     <p>
-                        The affinity map is a method of understanding and processing data that associates ideas with each other. Currently used in different fields, it has become an essential tool for organizing and structuring concepts. That's the main reason why I decided to use this method to analyze the interview insights.
+                        The affinity map is a method of understanding and processing data that associates ideas with
+                        each other. Currently used in different fields, it has become an essential tool for organizing
+                        and structuring concepts. That's the main reason why I decided to use this method to analyze the
+                        interview insights.
                     </p>
-                    <a href=""><img class="card-img-top mb-2" src="img/afinityDiagramewaste.png" alt="Proto-persona digital version"></a>
+                    <a href=""><img class="card-img-top mb-2" src="img/afinityDiagramewaste.png"
+                            alt="Proto-persona digital version"></a>
                     <a href=""><img class="card-img-top mb-2" src="" alt=""></a>
                 </div>
             </div>
@@ -349,7 +387,7 @@
                     <a href=""><img class="card-img-top mb-2" src="" alt=""></a>
                 </div>
             </div>
-            
+
             <div class="row mt-4">
                 <div class="col-lg-12">
                     <h3>Investigation Plan</h3>
@@ -400,13 +438,14 @@
                     </p>
                     <ul>
                         <li>
-                            UXR: Identify the type of platform that the user prefers for the final solution 
+                            UXR: Identify the type of platform that the user prefers for the final solution
                         </li>
                         <li>
-                            Decide which would be the Information Architecture (content tree, flowchart, etc.) suitable for the platform. 
+                            Decide which would be the Information Architecture (content tree, flowchart, etc.) suitable
+                            for the platform.
                         </li>
                         <li>
-                            Sketch development, wireframes, low-level prototyping, high-level prototyping 
+                            Sketch development, wireframes, low-level prototyping, high-level prototyping
                         </li>
                         <li>
                             Entrega de la solución final e informes.
@@ -420,27 +459,34 @@
         <footer class="row  bg-dark text-center" id="footer">
             <div class="col-md-4 p-4">
                 <p class="contact">
-                    <a target="_blank" class="col-md-1 fa fa-at contact link-light no-underline">&nbsp;&nbsp;mariabalos16@gmail.com</a><br/>
-                    <a target="_blank" class="col-md-1 fa fa-phone contact link-light no-underline">&nbsp;&nbsp;0044&nbsp7899&nbsp866&nbsp210</a>
+                    <a target="_blank"
+                        class="col-md-1 fa fa-at contact link-light no-underline">&nbsp;&nbsp;mariabalos16@gmail.com</a><br />
+                    <a target="_blank"
+                        class="col-md-1 fa fa-phone contact link-light no-underline">&nbsp;&nbsp;0044&nbsp7899&nbsp866&nbsp210</a>
                 </p>
             </div>
 
             <!-- Middle -->
             <div class="col-md-4 p-4">
                 <a href="index.html"><img src="img/logo_white.png" alt="" width="80"></a>
-                <small class="d-block text-muted"> Design & Code by Maria Balos © 2022
+                <small class="d-block text-muted"> Design & Code by Maria Balos © 2023
                 </small>
             </div>
 
             <!-- Social Media buttons -->
-        <div class="col-md-4 p-4">
-            <a target="_blank" class="m-3 fa fa-instagram link-light no-underline" href="https://www.instagram.com/mbalos.design/"></a>
-             <a target="_blank" class="m-3 fa fa-linkedin link-light no-underline" href="https://www.linkedin.com/in/mariabalos"></a>
-            <a target="_blank" class="m-3 fa fa-facebook link-light no-underline" href="https://www.facebook.com/magdalena.m.balos"></a>
-            <a target="_blank" class="m-3 fa fa-dribbble link-light no-underline" href="https://dribbble.com/mbalos/shots"></a>
-            <a target="_blank" class="m-3 fa fa-github link-light no-underline" href="https://github.com/mbalos16"></a>
-        </div>
-    </footer>
+            <div class="col-md-4 p-4">
+                <a target="_blank" class="m-3 fa fa-instagram link-light no-underline"
+                    href="https://www.instagram.com/mbalos.design/"></a>
+                <a target="_blank" class="m-3 fa fa-linkedin link-light no-underline"
+                    href="https://www.linkedin.com/in/mariabalos"></a>
+                <a target="_blank" class="m-3 fa fa-facebook link-light no-underline"
+                    href="https://www.facebook.com/magdalena.m.balos"></a>
+                <a target="_blank" class="m-3 fa fa-dribbble link-light no-underline"
+                    href="https://dribbble.com/mbalos/shots"></a>
+                <a target="_blank" class="m-3 fa fa-github link-light no-underline"
+                    href="https://github.com/mbalos16"></a>
+            </div>
+        </footer>
 
 
 

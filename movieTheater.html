@@ -9,11 +9,11 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-XWRE0SCTC7"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-    gtag('config', 'G-XWRE0SCTC7');
+        gtag('config', 'G-XWRE0SCTC7');
     </script>
 
     <!-- Custom Stylesheet -->
@@ -26,9 +26,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous">
-    </script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous">
+        </script>
     <link rel="icon" href="img/favicon.png">
     <title>MOVIE thEATer</title>
 </head>
@@ -38,19 +40,22 @@
     <!-- Icons -->
     <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
         <symbol id="check-circle-fill" fill="currentColor" viewBox="0 0 16 16">
-            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+            <path
+                d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
         </symbol>
         <symbol id="info-fill" fill="currentColor" viewBox="0 0 16 16">
-            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+            <path
+                d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" />
         </symbol>
         <symbol id="exclamation-triangle-fill" fill="currentColor" viewBox="0 0 16 16">
-            <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+            <path
+                d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
         </symbol>
     </svg>
 
     <div class="container">
         <!-- Barra Arriba -->
-       <nav class="navbar navbar-expand-lg navbar-light ">
+        <nav class="navbar navbar-expand-lg navbar-light ">
             <a class="navbar-brand" href="index.html"><img src="img/logo_black.png" width="140"
                     alt="Maria Balos | UX designer"></a>
 
@@ -87,15 +92,19 @@
             <h3>
                 MOVIE thEATer • Snack ordering app
             </h3>
-           
+
             <div class="row mt-2">
                 <div class="col-lg-12">
                     <p>
-                        
-                        MOVIE THeatER is an app created to help people located in a metropolitan area how uses a movie theater often. The role of this app in theirs life is to help them to order snacks in a movie theater. As user, you can order food inside the movie theater
-                        or pick it up from the counter. 
+
+                        MOVIE THeatER is an app created to help people located in a metropolitan area how uses a movie
+                        theater often. The role of this app in theirs life is to help them to order snacks in a movie
+                        theater. As user, you can order food inside the movie theater
+                        or pick it up from the counter.
                         <br><br>
-                        Our target customers are people with ages between 20-60 years old, living a busy life (parents, students that also work, etc), but who love to have some relax time with snacks in a movie theater.
+                        Our target customers are people with ages between 20-60 years old, living a busy life (parents,
+                        students that also work, etc), but who love to have some relax time with snacks in a movie
+                        theater.
                     </p>
                 </div>
                 <!--
@@ -105,46 +114,59 @@
                     </div>
                 </div>
                 -->
-                <a href=""><img class="card-img-top mb-2" src="img/movieTheaterMockup.png" alt="Movie Theater Mockups"></a>
+                <a href=""><img class="card-img-top mb-2" src="img/movieTheaterMockup.png"
+                        alt="Movie Theater Mockups"></a>
                 <div class="row">
                     <p>
-                        <ul>
-                            <li><strong> Duration:</strong> December 2021 </li>
-                            <li><strong>Role:</strong> UX/UI Designer</li>
-                            <li><strong>The Problem:</strong> For this project, I conducted interviews with users and created empathy maps to understand users' needs for a movie theater. Throughout the research, I was able to notice more needs than when I
-                                first started the project. For example, including people with different diets and allergies in the interviews gave me a new perspective on their needs for ordering snacks in a movie theater. My initial assumption was that
-                                users prefer to use movie theaters to avoid endless queues when they order food at the movie theater which was confirmed by the research. However, I also discovered that money, accessibility, and having just one app is
-                                another pain point that we need solutions for.
-                            </li>
-                            <li><strong> The assignment:</strong> Design a snack ordering app for a movie theater.</li>
-                            <li><strong>Responsabilities:</strong>desk research • conduct interviews • paper and digital wireframing • low and high-fidelity prototyping • conduct usability studies • iteration based on feedback • accessibility and iteration on designs
-                            </li>
+                    <ul>
+                        <li><strong> Duration:</strong> December 2021 </li>
+                        <li><strong>Role:</strong> UX/UI Designer</li>
+                        <li><strong>The Problem:</strong> For this project, I conducted interviews with users and
+                            created empathy maps to understand users' needs for a movie theater. Throughout the
+                            research, I was able to notice more needs than when I
+                            first started the project. For example, including people with different diets and allergies
+                            in the interviews gave me a new perspective on their needs for ordering snacks in a movie
+                            theater. My initial assumption was that
+                            users prefer to use movie theaters to avoid endless queues when they order food at the movie
+                            theater which was confirmed by the research. However, I also discovered that money,
+                            accessibility, and having just one app is
+                            another pain point that we need solutions for.
+                        </li>
+                        <li><strong> The assignment:</strong> Design a snack ordering app for a movie theater.</li>
+                        <li><strong>Responsabilities:</strong>desk research • conduct interviews • paper and digital
+                            wireframing • low and high-fidelity prototyping • conduct usability studies • iteration
+                            based on feedback • accessibility and iteration on designs
+                        </li>
 
-                            <li class="mt-4"><strong>Pain Point:</strong>
-                                <ul>
-                                    <li>
-                                        Platforms for ordering food are don’t take into account the people with allergies. Users may have diverse diets and sometimes they can’t find what they need in food apps.
+                        <li class="mt-4"><strong>Pain Point:</strong>
+                            <ul>
+                                <li>
+                                    Platforms for ordering food are don’t take into account the people with allergies.
+                                    Users may have diverse diets and sometimes they can’t find what they need in food
+                                    apps.
 
-                                    </li>
-                                    <li>
-                                        Users are too busy to spend time in endless queues to order food.
-                                    </li>
-                                    <li>
-                                        Snacks are usually expensive in all these kinds of apps. Users want to pay more or less the same price as in supermarkets.
-                                    </li>
-                                    <li>
-                                        Users don’t want to have an app for food orderings and another one for buying tickets and seat reservations. They want to have everything in one place.
-                                    </li>
-                                </ul>
-                                <li class="mt-4"><strong>Software</strong>
-                                    <ul>
-                                        <p>
-                                            Adobe Indesign • Figma • Microsoft Power Point
-                                        </p>
-                                    </ul>
                                 </li>
-                            </li>
-                        </ul>
+                                <li>
+                                    Users are too busy to spend time in endless queues to order food.
+                                </li>
+                                <li>
+                                    Snacks are usually expensive in all these kinds of apps. Users want to pay more or
+                                    less the same price as in supermarkets.
+                                </li>
+                                <li>
+                                    Users don’t want to have an app for food orderings and another one for buying
+                                    tickets and seat reservations. They want to have everything in one place.
+                                </li>
+                            </ul>
+                        <li class="mt-4"><strong>Software</strong>
+                            <ul>
+                                <p>
+                                    Adobe Indesign • Figma • Microsoft Power Point
+                                </p>
+                            </ul>
+                        </li>
+                        </li>
+                    </ul>
                     </p>
                 </div>
             </div>
@@ -153,16 +175,20 @@
                 <h3>User Persona</h3>
                 <!-- Horizontal line -->
                 <hr class="bg-black" />
-                    <p>
-                        User personas are a representation of the human profile based on archetypal descriptions of users from research. They are useful in humanizing design focus, testing scenarios as well as facilitating empathy with the real user.
-                    </p>               
+                <p>
+                    User personas are a representation of the human profile based on archetypal descriptions of users
+                    from research. They are useful in humanizing design focus, testing scenarios as well as facilitating
+                    empathy with the real user.
+                </p>
                 <div class="col-lg-6">
-                    <a href=""><img class="card-img-top mb-2" src="img/movieTheaterUserPersonaUno.jpg" alt="Image of Maaria Magdalena Balos"></a>
+                    <a href=""><img class="card-img-top mb-2" src="img/movieTheaterUserPersonaUno.jpg"
+                            alt="Image of Maaria Magdalena Balos"></a>
                 </div>
                 <div class="col-lg-6">
-                    <a href=""><img class="card-img-top mb-2" src="img/movieTheaterUserPersonaDos.jpg" alt="Image of Maaria Magdalena Balos"></a>
+                    <a href=""><img class="card-img-top mb-2" src="img/movieTheaterUserPersonaDos.jpg"
+                            alt="Image of Maaria Magdalena Balos"></a>
                 </div>
-               
+
 
                 <div class="row mt-4">
                     <h3>User Journey Map</h3>
@@ -170,15 +196,20 @@
                     <hr class="bg-black" />
                     <div class="col-lg-5">
                         <p>
-                            Mapping Christopher’s user journey revealed how helpful it would be to fuse both buying tickets and ordering snacks in the main Movie theater app. I’ve also been able to see that sending offers for the app to our users may be a good idea.
+                            Mapping Christopher’s user journey revealed how helpful it would be to fuse both buying
+                            tickets and ordering snacks in the main Movie theater app. I’ve also been able to see that
+                            sending offers for the app to our users may be a good idea.
                             <br>
                             <br>
-                            Mapping Joana helps me to understand all types of user necessities like food allergies and intolerances. I was able to see how being in a continuous rush can influence her day-by-day tasks. 
+                            Mapping Joana helps me to understand all types of user necessities like food allergies and
+                            intolerances. I was able to see how being in a continuous rush can influence her day-by-day
+                            tasks.
 
                         </p>
                     </div>
                     <div class="col-lg-7">
-                        <a href=""><img class="card-img-top mb-2" src="img/movieTheaterUserJourneyMap.jpg" alt="Image of Maaria Magdalena Balos"></a>
+                        <a href=""><img class="card-img-top mb-2" src="img/movieTheaterUserJourneyMap.jpg"
+                                alt="Image of Maaria Magdalena Balos"></a>
                     </div>
                 </div>
             </div>
@@ -187,13 +218,20 @@
                 <!-- Horizontal line -->
                 <hr class="bg-black" />
                 <p>
-                    To ensure that we take into consideration users' pain points, I started to design a solution using pencil and paper. This way I was able to iterate quickly through lots of ideas in an inexpensive way. Next, once I knew for sure the final screens, I started to design the wireframes digitally. You can see both methods, paper wireframes and digital wireframes below.
+                    To ensure that we take into consideration users' pain points, I started to design a solution using
+                    pencil and paper. This way I was able to iterate quickly through lots of ideas in an inexpensive
+                    way. Next, once I knew for sure the final screens, I started to design the wireframes digitally. You
+                    can see both methods, paper wireframes and digital wireframes below.
                 </p>
-                <a href=""><img class="card-img-top" src="img/movieTheaterPaperWireframe.png" alt="Paper Wireframes"></a>
-                <a href=""><img class="card-img-top" src="img/movieTheaterDigitalWireframes.png" alt="Digital Wireframes"></a>
-                <p>I've created an low fidelity prototype based on digital wireframes that allows users to order snacks into a movie theater. Please follow the next links to access the low-fidelity prototype.</p>
+                <a href=""><img class="card-img-top" src="img/movieTheaterPaperWireframe.png"
+                        alt="Paper Wireframes"></a>
+                <a href=""><img class="card-img-top" src="img/movieTheaterDigitalWireframes.png"
+                        alt="Digital Wireframes"></a>
+                <p>I've created an low fidelity prototype based on digital wireframes that allows users to order snacks
+                    into a movie theater. Please follow the next links to access the low-fidelity prototype.</p>
                 <div class="col-6">
-                    <a href="https://www.figma.com/proto/zVNIq4ABJsA6FL6qOnfNVi/Movie-theater--Digital-Wireframes-and-Prototype-(lo-fi-)?page-id=163%3A2&node-id=264%3A54&viewport=340%2C48%2C0.25&scaling=scale-down&starting-point-node-id=264%3A54" target="_blank" class="btn btn-dark mb-5 ustify-content-center">VIEW LO-FI PROTOTYPE</a>
+                    <a href="https://www.figma.com/proto/zVNIq4ABJsA6FL6qOnfNVi/Movie-theater--Digital-Wireframes-and-Prototype-(lo-fi-)?page-id=163%3A2&node-id=264%3A54&viewport=340%2C48%2C0.25&scaling=scale-down&starting-point-node-id=264%3A54"
+                        target="_blank" class="btn btn-dark mb-5 ustify-content-center">VIEW LO-FI PROTOTYPE</a>
                 </div>
             </div>
 
@@ -202,7 +240,9 @@
                     <h3>Usability study: findings</h3>
                     <!-- Horizontal line -->
                     <hr class="bg-black" />
-                    <p>I conducted two rounds of usability studies. Findings from the first study helped guide the designs from wireframes to mockups. The second study used a high-fidelity prototype and revealed what aspects of the mockups needed refining.
+                    <p>I conducted two rounds of usability studies. Findings from the first study helped guide the
+                        designs from wireframes to mockups. The second study used a high-fidelity prototype and revealed
+                        what aspects of the mockups needed refining.
                     </p>
                 </div>
                 <div class="row">
@@ -242,23 +282,30 @@
                     <hr class="bg-black" />
                 </div>
                 <p>
-                    So finally, after a lot of iteration, I created the final mockup, and with this one, I was able to deliver the high fidelity prototype. Please press the next button to play with the high-fidelity prototype.
+                    So finally, after a lot of iteration, I created the final mockup, and with this one, I was able to
+                    deliver the high fidelity prototype. Please press the next button to play with the high-fidelity
+                    prototype.
                 </p>
                 <div class="col-6">
-                    <a href="https://www.figma.com/proto/zVNIq4ABJsA6FL6qOnfNVi/Movie-theater--Digital-Wireframes-and-Prototype-(lo-fi-)?page-id=359%3A7000&node-id=359%3A7001&viewport=344%2C48%2C0.17&scaling=scale-down&starting-point-node-id=359%3A7744" target="_blank" class="btn btn-dark mb-5 ustify-content-center">VIEW HI-FI PROTOTYPE</a>
+                    <a href="https://www.figma.com/proto/zVNIq4ABJsA6FL6qOnfNVi/Movie-theater--Digital-Wireframes-and-Prototype-(lo-fi-)?page-id=359%3A7000&node-id=359%3A7001&viewport=344%2C48%2C0.17&scaling=scale-down&starting-point-node-id=359%3A7744"
+                        target="_blank" class="btn btn-dark mb-5 ustify-content-center">VIEW HI-FI PROTOTYPE</a>
                 </div>
             </div>
-            
+
             <div class="row mt-4">
-                    <h3>Takeaways</h3>
-                    <!-- Horizontal line -->
-                    <hr class="bg-black" />
-                    <p>
-                       <strong>Impact: </strong>The app makes users find the snacks they need at the right moment when in a movie theater. This snack ordering app is an amazing solution for parents who go to the movie theater with their children.
-                       <br>
-                       <br>
-                       <strong>What I learned:</strong> While designing the Movie theater app I didn’t think I would have so many things to take into consideration. I also discovered a lot of pains in the user's journey. Iteration was the main key in the approach and solution of this project.
-                    </p>
+                <h3>Takeaways</h3>
+                <!-- Horizontal line -->
+                <hr class="bg-black" />
+                <p>
+                    <strong>Impact: </strong>The app makes users find the snacks they need at the right moment when in a
+                    movie theater. This snack ordering app is an amazing solution for parents who go to the movie
+                    theater with their children.
+                    <br>
+                    <br>
+                    <strong>What I learned:</strong> While designing the Movie theater app I didn’t think I would have
+                    so many things to take into consideration. I also discovered a lot of pains in the user's journey.
+                    Iteration was the main key in the approach and solution of this project.
+                </p>
             </div>
 
             <div class="row mt-4 ">
@@ -268,13 +315,15 @@
                     <hr class="bg-black" />
                     <ul>
                         <li>
-                            In this project, I've focused on creating the snack ordering process, but users also want to buy the tickets and reserve a seat within the app. This can be one of the steps in this project.
+                            In this project, I've focused on creating the snack ordering process, but users also want to
+                            buy the tickets and reserve a seat within the app. This can be one of the steps in this
+                            project.
                         </li>
                         <li>
                             Add more payment options.
                         </li>
                         <li>
-                           Create the missing screens
+                            Create the missing screens
                         </li>
                         <li>
                             Make the app more accessible and compatible with screen reading apps.
@@ -287,37 +336,45 @@
             </div>
 
             <div class="row mt-4">
-                <p>Please follow the next links to access the high fidelity prototype and the documentation of this project.</p>
+                <p>Please follow the next links to access the high fidelity prototype and the documentation of this
+                    project.</p>
 
                 <div class="col-6">
-                    <a href="https://docs.google.com/presentation/d/1Z5xxQgKwcZQw7PfMwnIa1opS06JXXGLMNTlhO_6LTp0/edit?usp=sharing" target="_blank" class="btn btn-dark mb-5 justify-content-center">DOCUMENTATION</a>
+                    <a href="https://docs.google.com/presentation/d/1Z5xxQgKwcZQw7PfMwnIa1opS06JXXGLMNTlhO_6LTp0/edit?usp=sharing"
+                        target="_blank" class="btn btn-dark mb-5 justify-content-center">DOCUMENTATION</a>
                 </div>
             </div>
         </div>
     </div>
 
-        <!-- Footer -->
-        <footer class="row  bg-dark text-center" id="footer">
-            <div class="col-md-4 p-4">
-                <p class="contact">
-                    <a target="_blank" class="col-md-1 fa fa-at contact link-light no-underline">&nbsp;&nbsp;mariabalos16@gmail.com</a><br/>
-                    <a target="_blank" class="col-md-1 fa fa-phone contact link-light no-underline">&nbsp;&nbsp;0044&nbsp7899&nbsp866&nbsp210</a>
-                </p>
-            </div>
-
-            <!-- Middle -->
-            <div class="col-md-4 p-4">
-                <a href="index.html"><img src="img/logo_white.png" alt="" width="80"></a>
-                <small class="d-block text-muted"> Design & Code by Maria Balos © 2022
-                </small>
-            </div>
-
-            <!-- Social Media buttons -->
+    <!-- Footer -->
+    <footer class="row  bg-dark text-center" id="footer">
         <div class="col-md-4 p-4">
-            <a target="_blank" class="m-3 fa fa-instagram link-light no-underline" href="https://www.instagram.com/mbalos.design/"></a>
-             <a target="_blank" class="m-3 fa fa-linkedin link-light no-underline" href="https://www.linkedin.com/in/mariabalos"></a>
-            <a target="_blank" class="m-3 fa fa-facebook link-light no-underline" href="https://www.facebook.com/magdalena.m.balos"></a>
-            <a target="_blank" class="m-3 fa fa-dribbble link-light no-underline" href="https://dribbble.com/mbalos/shots"></a>
+            <p class="contact">
+                <a target="_blank"
+                    class="col-md-1 fa fa-at contact link-light no-underline">&nbsp;&nbsp;mariabalos16@gmail.com</a><br />
+                <a target="_blank"
+                    class="col-md-1 fa fa-phone contact link-light no-underline">&nbsp;&nbsp;0044&nbsp7899&nbsp866&nbsp210</a>
+            </p>
+        </div>
+
+        <!-- Middle -->
+        <div class="col-md-4 p-4">
+            <a href="index.html"><img src="img/logo_white.png" alt="" width="80"></a>
+            <small class="d-block text-muted"> Design & Code by Maria Balos © 2023
+            </small>
+        </div>
+
+        <!-- Social Media buttons -->
+        <div class="col-md-4 p-4">
+            <a target="_blank" class="m-3 fa fa-instagram link-light no-underline"
+                href="https://www.instagram.com/mbalos.design/"></a>
+            <a target="_blank" class="m-3 fa fa-linkedin link-light no-underline"
+                href="https://www.linkedin.com/in/mariabalos"></a>
+            <a target="_blank" class="m-3 fa fa-facebook link-light no-underline"
+                href="https://www.facebook.com/magdalena.m.balos"></a>
+            <a target="_blank" class="m-3 fa fa-dribbble link-light no-underline"
+                href="https://dribbble.com/mbalos/shots"></a>
             <a target="_blank" class="m-3 fa fa-github link-light no-underline" href="https://github.com/mbalos16"></a>
         </div>
     </footer>
