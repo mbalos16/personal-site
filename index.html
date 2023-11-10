@@ -5,276 +5,163 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XWRE0SCTC7"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'G-XWRE0SCTC7');
-    </script>
-
-    <!-- Custom Stylesheet -->
+    <title>Home</title>
+    <link rel="icon" href="img/favicon.png">
     <link rel="stylesheet" type="text/css" href="style.css">
-
-    <!-- Library for Social Media -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
 
-    <!-- Jquery Library -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XWRE0SCTC7"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-    <!-- P5 LIBRARY -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/p5.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/addons/p5.sound.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous">
-        </script>
-    <link rel="icon" href="img/favicon.png">
-    <title>Home</title>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-XWRE0SCTC7');
+    </script>
 </head>
 
 <body>
-    <!-- Icons -->
-    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
-        <symbol id="check-circle-fill" fill="currentColor" viewBox="0 0 16 16">
-            <path
-                d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
-        </symbol>
-        <symbol id="info-fill" fill="currentColor" viewBox="0 0 16 16">
-            <path
-                d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" />
-        </symbol>
-        <symbol id="exclamation-triangle-fill" fill="currentColor" viewBox="0 0 16 16">
-            <path
-                d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
-        </symbol>
-    </svg>
-
     <div class="container">
-        <!-- Barra Arriba -->
-        <nav class="navbar navbar-expand-lg navbar-light ">
-            <a class="navbar-brand" href="index.html"><img src="img/logo_black.png" width="140"
-                    alt="Maria Balos | UX designer"></a>
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo_black.png" width="140" alt="Maria Balos | UX designer">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-end text-end" id="navbarNav">
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Projects</a>
+                        <a class="nav-link" href="index.html">About Me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="resume.html">Resume</a>
+                        <a class="nav-link" href="projects.html">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
+                        <a class="nav-link" href="projects.html">Resume</a>
                     </li>
                 </ul>
             </div>
         </nav>
 
-        <!-- Horizontal line -->
         <hr class="line" />
 
-
-        <div class="row">
-            
-            <!-- UX Design -->
-            <div id="ux_design" , class="col-lg-12">
-                <h3>User Experience Design</h3>
-                <p><i>As a passionate advocate for user-centric design, I'm thrilled to share my projects and insights
-                        with you. In this category, we'll delve into the world of user research, information
-                        architecture, interaction design, and more. Witness how I transform complex problems into
-                        elegant and intuitive solutions, putting users at the heart of every decision. Let's embark on a
-                        journey of creating engaging experiences that leave a lasting impact on the lives of users.</i>
+        <div class="row mb-4" id="about_me">
+            <div class="col-md-8">
+                <h3 class="title">Hello!</h3>
+                <p class="second_level">Fancy seeing you here ;)</p>
+                <p>
+                    I'm a user-centric design enthusiast based in Cambridge, UK. My approach to problem-solving involves identifying the right problem, collaborating with team members, and working closely with stakeholders to create functional solutions that meet the needs
+                    of users and businesses.
                 </p>
-                <div class="col">
-                    <div class="row pb-12">
-                        <div class="col-md-3 pb-5 col-sm-12 text-light">
-                            <div class="card" style="width:300">
-                                <a href="singerInstruments.html">
-                                    <img class="card-img-top" src="img/singer_instruments_pixl.jpg"
-                                        alt="Image of Singer Instruments pixl product.">
-                                </a>
-                                <div class="card-body">
-                                    <p class="card-text text-dark"><strong> Zone of inhibition </strong> • Internship experience at Singer Instruments </p>
-                                </div>
-                            </div>
-                        </div>
+                <br>
+                <h5>Drop me a line!</h5>
+                <p>If you want to get in touch with me, whether it's for business or just to say "hi", here's how you can do it.</p>
+                <p>
+                    <a target="_blank" class="col-md-1 fa fa-at contact link-dark no-underline">&nbsp;&nbsp;mariabalos16@gmail.com</a><br />
+                    <a target="_blank" class="col-md-1 fa fa-phone contact link-dark no-underline">&nbsp;&nbsp;0044&nbsp7899&nbsp866&nbsp210</a>
+                </p>
+            </div>
+            <div class="col-md-4">
+                <img class="img-fluid" src="img/maria3.jpeg" alt="Maria in the Teide Peak, 3.715m above sea.">
+                <p class="caption">Botanical Gardens, Puerto de la Cruz, Tenerife, Spain, 2023</p>
+            </div>
+        </div>
+    </div>
 
-                        <div class="col-md-3 pb-5 col-sm-12 text-light">
-                            <div class="card" style="width:300">
-                                <a href="ohClack.html">
-                                    <img class="card-img-top" src="img/ohClackSmall.jpg"
-                                        alt="Image of OhClack home screen in a TV.">
-                                </a>
-                                <div class="card-body">
-                                    <p class="card-text text-dark"><strong> °h Clack </strong> • streaming platform for
-                                        audiovisual content </p>
-                                </div>
-                            </div>
-                        </div>
 
-                        <div class="col-md-3 mb-5 col-sm-12 text-light">
-                            <div class="card" style="width:300">
-                                <a href="expatData.html"><img class="card-img-top" src="img/expatPresentationSmall.jpg"
-                                        alt="Presentation AdoptaLista"></a>
-                                <div class="card-body">
-                                    <p class="card-text text-dark"><strong>EXpatDATA</strong> • Responsive Integration
-                                        Desk
-                                        Website</p>
-                                </div>
-                            </div>
-                        </div>
+    <div class="accent_category">
+        <div class="row m-4">
+            <div class="row ">
+                <div class="pb-4 pt-3 skills_process">
+                    <h3 class="title">UX Design Process & Personal Skills</h3>
+                    <p>I enjoy adapting user experience design methodologies to each project in a non-linear process. </p>
+                </div>
 
-                        <div class="col-md-3 pb-5 col-sm-12 text-light">
-                            <div class="card" style="width:300">
-                                <a href="movieTheater.html">
-                                    <img class="card-img-top" src="img/movieTheaterSmall.jpg"
-                                        alt="Image of a snack ordering app for a movie theater.">
-                                </a>
-                                <div class="card-body">
-                                    <p class="card-text text-dark"><strong>Movie Theater</strong> • Snack ordering app
-                                        for a
-                                        movie theater</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-3 pb-5 col-sm-12 text-light">
-                            <div class="card" style="width:300">
-                                <a href="uocApp.html">
-                                    <img class="card-img-top" src="img/uocAppPresentationSmall.jpg"
-                                        alt="Image of an prototype of an app that help mates from an online university to connect.">
-                                </a>
-                                <div class="card-body">
-                                    <p class="card-text text-dark"><strong> UOC </strong> • University App to Create
-                                        Community </p>
-                                </div>
-                            </div>
-                        </div>
+                <div class="col-lg-4 col-md-12">
+                    <div>
+                        <img class="image" src="img/dalee_design_process.png" width="400" alt="Design thinking process.">
+                        <p class="caption"> Image Generated with DALL·E 3
+                            <div class=""></div>
+                        </p>
                     </div>
                 </div>
-            </div>
-
-            <!-- Graphic Design -->
-            <div id="graphic_design" , class="col-lg-12">
-                <h3>Graphic Design</h3>
-                <p><i> Welcome to the Graphic Design corner of my digital world! Here, I invite you to explore the
-                        diverse
-                        range of projects that have shaped my creative journey. As a graphic designer, I believe in the
-                        magic of visuals to tell stories, evoke emotions, and leave a lasting impact. Through this
-                        category,
-                        I aim to share my design process, from ideation to execution, and unveil the stories behind each
-                        artwork
-                    </i></p>
-                <div class="col pb-5">
-                    <div class="row pb-4">
-
-                        <!-- Editorial -->
-                        <div class="col-md-3 mb-5 text-light">
-                            <div class="card" style="width:300">
-                                <a href="idcn.html">
-                                    <img class="card-img-top" src="img/newsletterJuneSmall.jpg"
-                                        alt="A photo of an open newsletter and another one next closed.">
-                                </a>
-                                <div class="card-body">
-                                    <p class="card-text text-dark"> <strong> Digital Newsletters </strong> •
-                                        International Dual
-                                        Career Network • NGO</p>
-                                    <!-- <a href="idcn.html" class="btn btn-dark">See more</a> -->
-                                </div>
-                            </div>
+                <div class="col-lg-8 col-md-12 col-sm-12 pl-6">
+                    <div class="row">
+                        <div class="col-lg-3 col-sm-3">
+                            <h5>UX Research</h5>
+                            <ul>
+                                <li>Storyboard</li>
+                                <li>User/Process Flows</li>
+                                <li>Journey Maps</li>
+                                <li>Affinity Diagrams</li>
+                                <li>Usability Testing</li>
+                                <ul>
+                                    <li>Moderated</li>
+                                    <li>Unmoderated</li>
+                                </ul>
+                                <li>Field Studies</li>
+                                <li>Competitors Analysis</li>
+                                <li>User Persona</li>
+                                <li>Data analysis</li>
+                            </ul>
                         </div>
-
-                        <div class="col-md-3 mb-5 text-light">
-                            <div class="card" style="width:300">
-                                <a href="egeria.html">
-                                    <img class="card-img-top" src="img/egeriaSmall.jpg"
-                                        alt="Someone hilding an EGERIA newsletter in her arms.">
-                                </a>
-                                <div class="card-body">
-                                    <p class="card-text text-dark"><strong>EGERIA</strong> • Digital and Printed Travel
-                                        Magazine
-                                    </p>
-                                    <!-- <a href="egeria.html" class="btn btn-dark">See more</a> -->
-                                </div>
-                            </div>
+                        <div class="col-lg-3 col-sm-3">
+                            <h5>User Experience</h5>
+                            <ul>
+                                <li>Discovery Interviews</li>
+                                <li>Heuristic Evaluation</li>
+                                <li>Contextual Observation</li>
+                                <li>Information Architecture </li>
+                                <li>Surveys and Questionnaires</li>
+                                <li>Card Sorting</li>
+                                <li>Tree Test</li>
+                                <li>Usability Study</li>
+                                <li>Interaction Design</li>
+                                <li>Visual Design</li>
+                                <li>A/B Testing</li>
+                            </ul>
                         </div>
-
-                        <div class="col-md-3 mb-5 text-light">
-                            <div class="card" style="width:300">
-                                <a href="xibalba.html">
-                                    <img class="card-img-top" src="img/xibalbaSmall.jpg"
-                                        alt="A photo of the cover of the book.">
-                                </a>
-                                <div class="card-body">
-                                    <p class="card-text text-dark"><strong>XIBALBA</strong> • Book Cover for an Mayan
-                                        Mythology
-                                        Book </p>
-                                    <!-- <a href="xibalba.html" class="btn btn-dark">See more</a> -->
-                                </div>
-                            </div>
+                        <div class="col-lg-3 col-sm-3">
+                            <h5>User Interface</h5>
+                            <ul>
+                                <li>Atomic UI kit Design</li>
+                                <li>Composition</li>
+                                <li>Tipography</li>
+                                <li>Colour Psychology </li>
+                                <li>Wireframes</li>
+                                <li>Prototypes</li>
+                                <ul>
+                                    <li>Low Fidelity</li>
+                                    <li>High Fidelity</li>
+                                </ul>
+                                <li>Design Sistem</li>
+                            </ul>
                         </div>
-
-                        <div class="col-md-3 mb-5 text-light">
-                            <div class="card" style="width:300">
-                                <a href="beer.html"><img class="card-img-top" src="img/howthPresentationSmall.jpg"
-                                        alt="Photo of a someone holding a beer with a nice red label."></a>
-                                <div class="card-body">
-                                    <p class="card-text text-dark"><strong>Beer Labels</strong> • Brewery Product Design
-                                    </p>
-                                    <!-- <a href="beer.html" class="btn btn-dark">See more</a> -->
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="col-md-3 text-light">
-                            <div class="card" style="width:300">
-                                <a href="textile.html"><img class="card-img-top" src="img/tshirtDesignSmall.jpg"
-                                        alt="A photo of a computer with the new welsite presentation."></a>
-                                <div class="card-body">
-                                    <p class="card-text text-dark">
-                                        <strong> Design in textile </strong> • Textile Design at Home
-                                    </p>
-                                    <!-- <a href="lifeHealthyStyle.html" class="btn btn-dark">See more</a>  -->
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-3 text-light">
-                            <div class="card" style="width:300">
-                                <a href="artifice.html"><img class="card-img-top" src="img/artifice_small.jpg"
-                                        alt="A photo of a computer with the new welsite presentation."></a>
-                                <div class="card-body">
-                                    <p class="card-text text-dark">
-                                        <strong> Artifice </strong> • Brand Design for a Spanish Brewery
-                                    </p>
-                                    <!-- <a href="lifeHealthyStyle.html" class="btn btn-dark">See more</a>  -->
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-3 text-light">
-                            <div class="card" style="width:300">
-                                <a href="animalesMascotas.html"><img class="card-img-top"
-                                        src="img/animalesMascotasSmall.jpg" alt="A photo of some calendars."></a>
-                                <div class="card-body">
-                                    <p class="card-text text-dark">
-                                        <strong> Animals with Their Pets </strong> • Calendar 2022
-                                    </p>
-                                    <!-- <a href="lifeHealthyStyle.html" class="btn btn-dark">See more</a>  -->
-                                </div>
-                            </div>
+                        <div class="col-lg-3 col-sm-3">
+                            <h5>Coding</h5>
+                            <ul>
+                                <li>Python</li>
+                                <ul>
+                                    <li>Pandas</li>
+                                    <li>Matplotlib</li>
+                                    <li>NumPy</li>
+                                </ul>
+                                <li>CSS</li>
+                                <li>HTML</li>
+                                <li>Bootstrap </li>
+                                <li>JavaScript</li>
+                                <li>P5.JS</li>
+                                <li>Bash</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -282,39 +169,96 @@
         </div>
     </div>
 
-        <!-- Footer -->
-        <footer class="row  bg-dark text-center" id="footer">
-            <div class="col-md-4 p-4">
-                <p class="contact">
-                    <a target="_blank"
-                        class="col-md-1 fa fa-at contact link-light no-underline">&nbsp;&nbsp;mariabalos16@gmail.com</a><br />
-                    <a target="_blank"
-                        class="col-md-1 fa fa-phone contact link-light no-underline">&nbsp;&nbsp;0044&nbsp7899&nbsp866&nbsp210</a>
-                </p>
+
+    <div class="category">
+        <div class="container">
+            <h3 class="title"> Qualifications</h3>
+            <div class="row">
+                <div class="col qualification_card p-4">
+                    <h6>data science intensive technical program</h6>
+                    <p>Intensive Program <br> 2023 - Present <br>
+                        <a target="_blank" href="https://www.datamecum.com/" class="float-right text-dark">Datamecum</a>
+                    </p>
+                </div>
+                <div class="col qualification_card p-4">
+                    <h6>100 Days of Code: The Complete Python Pro Bootcamp for 2023</h6>
+                    <p>Python programing <br> 2023 - Present <br>
+                        <a target="_blank" href="https://www.udemy.com/course/100-days-of-code/" class="float-right text-dark">
+                               Udemy
+                            </a>
+                    </p>
+                </div>
+                <div class=" col qualification_card p-4">
+                    <h6>interaction design and user experience (UX)</h6>
+                    <p> Master's Degree <br> 2021 - 2023 <br>
+                        <a target="_blank" href="https://www.uoc.edu/portal/ca/index.html" class="float-right text-dark">Open University of Catalonia</a>
+                    </p>
+                </div>
+
+                <div class="col qualification_card p-4">
+                    <h6>google and coursera user design specialization</h6>
+                    <p>UX Design Certification <br> 2021 <br>
+                        <a target="_blank" href="https://www.coursera.org/account/accomplishments/specialization/certificate/Z8PCCVQLEA68" class="float-right text-dark">
+                                Coursera
+                            </a>
+                    </p>
+                </div>
+
+                <div class="col qualification_card p-4">
+                    <h6>graphic design and digital creation</h6>
+                    <p>Bachelor's Degree <br> 2018 - 2021<br>
+                        <a target="_blank" href="https://www.uoc.edu/portal/ca/index.html" class="float-right text-dark">
+                                Open University of Catalonia
+                            </a>
+                    </p>
+                </div>
+
+                <div class="col qualification_card p-4">
+                    <h6>Light, capturing and image processing</h6>
+                    <p>Certificate of Hight Education (CertHE) <br> 2016 - 2018 <br>
+                        <a target="_blank" href="http://iespf2014.villatic.org/index.php?acepto_politica_de_privacidad=si" class="float-right text-dark">
+                                I. E. S. Prince Felipe
+                            </a>
+                    </p>
+                </div>
             </div>
 
-            <!-- Middle -->
-            <div class="col-md-4 p-4">
-                <a href="index.html"><img src="img/logo_white.png" alt="" width="80"></a>
-                <small class="d-block text-muted"> Design & Code by Maria Balos © 2023
+            <div class="row">
+                <h6>More than 25 online courses in design, coding and photography. Please check my
+                    <a target="_blank" href="https://www.linkedin.com/in/mariabalos" class="float-right text-dark">
+                        LinkedIn
+                        </a> for more details.
+                </h6>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="row  bg-dark text-center" id="footer">
+        <div class="col-md-4 p-4">
+            <p class="contact">
+                <a target="_blank" class="col-md-1 fa fa-at contact link-light no-underline">&nbsp;&nbsp;mariabalos16@gmail.com</a><br />
+                <a target="_blank" class="col-md-1 fa fa-phone contact link-light no-underline">&nbsp;&nbsp;0044&nbsp7899&nbsp866&nbsp210</a>
+            </p>
+        </div>
+
+        <!-- Middle -->
+        <div class="col-md-4 p-4">
+            <a href="index.html"><img src="img/logo_white.png" alt="" width="80"></a>
+            <small class="d-block text-muted"> Design & Code by Maria Balos © 2023
                 </small>
-            </div>
+        </div>
 
-            <!-- Social Media buttons -->
-            <div class="col-md-4 p-4">
-                <a target="_blank" class="m-3 fa fa-instagram link-light no-underline"
-                    href="https://www.instagram.com/mbalos.design/"></a>
-                <a target="_blank" class="m-3 fa fa-linkedin link-light no-underline"
-                    href="https://www.linkedin.com/in/mariabalos"></a>
-                <a target="_blank" class="m-3 fa fa-facebook link-light no-underline"
-                    href="https://www.facebook.com/magdalena.m.balos"></a>
-                <a target="_blank" class="m-3 fa fa-dribbble link-light no-underline"
-                    href="https://dribbble.com/mbalos/shots"></a>
-                <a target="_blank" class="m-3 fa fa-github link-light no-underline"
-                    href="https://github.com/mbalos16"></a>
-            </div>
-        </footer>
-
+        <!-- Social Media buttons -->
+        <div class="col-md-4 p-4">
+            <a target="_blank" class="m-3 fa fa-instagram link-light no-underline" href="https://www.instagram.com/mbalos.design/"></a>
+            <a target="_blank" class="m-3 fa fa-linkedin link-light no-underline" href="https://www.linkedin.com/in/mariabalos"></a>
+            <a target="_blank" class="m-3 fa fa-facebook link-light no-underline" href="https://www.facebook.com/magdalena.m.balos"></a>
+            <a target="_blank" class="m-3 fa fa-dribbble link-light no-underline" href="https://dribbble.com/mbalos/shots"></a>
+            <a target="_blank" class="m-3 fa fa-github link-light no-underline" href="https://github.com/mbalos16"></a>
+        </div>
+    </footer>
 </body>
 
 </html>
