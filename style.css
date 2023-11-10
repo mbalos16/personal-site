@@ -1,8 +1,11 @@
 body{
+    background-color: rgb(243, 238, 234) !important;
     font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
     display: flex;
     flex-direction: column;
     min-height:100vh;
+    color: rgb(60, 50, 47) !important;
+    text-wrap: balance !important;
 }
 /* Remove links underline */
 a.no-underline {
@@ -23,7 +26,7 @@ ul.timeline {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background: white;
+    background: rgb(243, 238, 234);
     border: 3px solid #C93C20;
     position: absolute;
     left: -15px;
@@ -43,8 +46,8 @@ ul.timeline {
   }
 
 div .btn {
-background-color: #C93C20;
-border: 0cm;
+    background-color: #C93C20;
+    border: 0cm;
 }
 
 /* Make video relative */
@@ -67,6 +70,12 @@ border: 0cm;
     flex: 1;
 }
 
+.index_intro{
+    padding-top:100px;
+    align-items: center;
+    text-wrap:balance;
+    }
+
 nav > div > .fa{
     margin: auto;
 }
@@ -75,8 +84,6 @@ nav > div > .fa{
     border-radius: 10px;
     transform: scale(1.05);
 }
-
-/* Texto del navbar*/
 
 .menuText {
     font-weight: 18 px;
@@ -134,4 +141,100 @@ nav > div > .fa{
 
 .sheet{
     padding-bottom: 100px;
+}
+
+.caption{
+    font-size: small;
+    font-style: italic;
+}
+
+#new_category{
+    padding-bottom: 30px;
+}
+
+
+.second_level{
+    color: gray;
+    font-size: small;
+    font-style: italic;
+}
+
+.accent_category{
+    background-color: rgb(215, 202, 193);
+}
+
+.image{
+    border-radius: 5px;
+    box-shadow: 0 4px 4px 0 rgb(119, 107, 93, 0.2), 0 6px 20px 0 rgb(119, 107, 93, 0.2);
+    width: 100%; 
+    height: auto; 
+}
+
+ul {
+    --icon-space: 1.3em;
+    list-style: none;
+    color: #1e3050;
+}
+  
+
+li:before {
+    content: "\f111"; /* FontAwesome Unicode */
+    font: var(--fa-font-regular);
+    font-family: FontAwesome;
+    font-size:x-small;
+    display: inline-block;
+    margin-left: calc( var(--icon-space) * -1 );
+    width: var(--icon-space);
+    color: rgb(127, 126, 126);
+}
+
+.category{
+    padding-top: 50px;
+}
+
+
+/* Remove bullets from li navbar */
+.navbar ul li::before{
+    content: none;
+}
+
+
+
+/* Index bottom */
+.qualification_card{
+    border-radius: 4px;
+    background: rgb(215, 202, 193);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    cursor: pointer;
+    margin: 4px;
+    align-items: center;
+    text-align: center;
+}
+
+.qualification_card h6{
+    color:  #1e3050;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration:
+}
+
+
+.qualification_card p{
+    font-size: small;
+}
+
+.qualification_card a{
+    font-size: small;
+}
+
+
+.subtitle{
+    text-transform:uppercase;
+    color: #C93C20;
+
+}
+
+.responsabilities{
+    color:#1e3050;
+    font-size: small;
 }
