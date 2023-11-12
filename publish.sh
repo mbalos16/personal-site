@@ -28,6 +28,9 @@ git rebase main dev
 
 echo "Rebasing dev into main..."
 git rebase dev main
+git checkout dev
+git push
+git checkout main
 git push
 
 echo "CHANGES PUBLISHED SUCCESSFULLY! Checking out dev"
