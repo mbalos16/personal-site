@@ -1,10 +1,10 @@
 body{
-    background-color: rgb(243, 238, 234) !important;
+    background-color: #F3EEEA !important;
     font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
     display: flex;
     flex-direction: column;
     min-height:100vh;
-    color: rgb(60, 50, 47) !important;
+    color: #3C322B !important;
     text-wrap: balance !important;
 }
 /* Remove links underline */
@@ -27,7 +27,7 @@ ul.timeline {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background: rgb(243, 238, 234);
+    background: #F3EEEA;
     border: 3px solid #C93C20;
     position: absolute;
     left: -15px;
@@ -96,7 +96,7 @@ nav > div > .fa{
 
 .card{
     border-radius: 4px;
-    background: #fff;
+    background: #D7CAC1;
     transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
     cursor: pointer;
 }
@@ -137,7 +137,7 @@ nav > div > .fa{
 .expat-img{
     border-style: solid;
     border-width: 3px;
-    border-color: rgba(188, 189, 188, 0.5)
+    border-color: #6D788B
 }
 
 .sheet{
@@ -166,7 +166,7 @@ nav > div > .fa{
 
 .image{
     border-radius: 5px;
-    box-shadow: 0 4px 4px 0 rgb(119, 107, 93, 0.2), 0 6px 20px 0 rgb(119, 107, 93, 0.2);
+    box-shadow: 0 4px 4px 0 #3C322B, 0 6px 20px 0 #3C322B;
     width: 100%; 
     height: auto; 
 }
@@ -186,7 +186,7 @@ li:before {
     display: inline-block;
     margin-left: calc( var(--icon-space) * -1 );
     width: var(--icon-space);
-    color: rgb(127, 126, 126);
+    color: #6D788B;
 }
 
 .category{
