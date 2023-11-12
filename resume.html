@@ -1,332 +1,421 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XWRE0SCTC7"></script>
-    <script>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-XWRE0SCTC7"></script>
+        <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
 
         gtag('config', 'G-XWRE0SCTC7');
-    </script>
-
-
-    <!-- Custom Stylesheet -->
-    <link rel="stylesheet" type="text/css" href="style.css">
-
-    <!-- Library for Social Media -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <!-- Jquery Library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
-        crossorigin="anonymous"></script>
-    <link rel="icon" href="img/favicon.png">
-    <title>About Me</title>
-</head>
-
-<body>
-    <!-- Icons -->
-    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
-        <symbol id="check-circle-fill" fill="currentColor" viewbox="0 0 16 16">
-            <path
-                d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
-        </symbol>
-        <symbol id="info-fill" fill="currentColor" viewbox="0 0 16 16">
-            <path
-                d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" />
-        </symbol>
-        <symbol id="exclamation-triangle-fill" fill="currentColor" viewbox="0 0 16 16">
-            <path
-                d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
-        </symbol>
-    </svg>
-
-    <div class="container">
-        <!-- Barra Arriba -->
-        <nav class="navbar navbar-expand-lg navbar-light ">
-            <a class="navbar-brand" href="index.html"><img src="img/logo_black.png" width="140"
-                    alt="Maria Balos | UX designer"></a>
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end text-end" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item ">
-                        <a class="nav-link" href="index.html">About Me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="projects.html">Projects</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="resume.html">Resume</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-
-        <!-- Horizontal line -->
-        <hr class="bg-black" />
-
-        <!-- Description -->
-        <div class="row">
-
-            <div id="graphic_design" , class="col-lg-12">
-                <!-- Description -->
-                <div class="row mb-5">
-                    <h3>Maria Magdalena Balos</h3>
-                    <p><strong>
-                        Cambridge, CB13SL • (+44) 7899 866 219 • mariabalos16@gmail.com • <a target="_blank" href="https://www.linkedin.com/in/mariabalos">https://www.linkedin.com/in/mariabalos</a>
-                    </strong></p>
-                    <p><i>
-                        Driven by a genuine passion for understanding user needs through empathy and curiosity, I find
+        </script>
+        <!-- Custom Stylesheet -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <!-- Library for Social Media -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Jquery Library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!-- Bootstrap CSS -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0"
+            crossorigin="anonymous"
+        >
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+        <link rel="icon" href="img/favicon.png">
+        <title>About Me</title>
+    </head>
+    <body>
+        <!-- Icons -->
+        <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+            <symbol id="check-circle-fill" fill="currentColor" viewbox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+            </symbol>
+            <symbol id="info-fill" fill="currentColor" viewbox="0 0 16 16">
+                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+            </symbol>
+            <symbol id="exclamation-triangle-fill" fill="currentColor" viewbox="0 0 16 16">
+                <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+            </symbol>
+        </svg>
+        <div class="container">
+            <!-- Barra Arriba -->
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logo_black.png" width="140" alt="Maria Balos | UX designer">
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end text-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="index.html">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="projects.html">Projects</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="resume.html">Resume</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- Horizontal line -->
+            <hr class="bg-black">
+            <!-- Description -->
+            <div class="row">
+                <div id="graphic_design" class="col-lg-12">
+                    <!-- Description -->
+                    <div class="row mb-5">
+                        <h3>Maria Magdalena Balos</h3>
+                        <p>
+                            <strong>
+                                Cambridge, CB13SL • (+44) 7899 866 219 • mariabalos16@gmail.com •
+                                <a target="_blank" href="https://www.linkedin.com/in/mariabalos">https://www.linkedin.com/in/mariabalos</a>
+                            </strong>
+                        </p>
+                        <p>
+                            <i>
+                                Driven by a genuine passion for understanding user needs through empathy and curiosity, I find
                         fulfillment in my role as a user experience design professional. Customers and colleagues
                         acknowledge my commitment to producing exceptional results, whether working autonomously or as
                         part of a team. Continual learning and growth are integral to my approach, as I consistently
                         seek to expand my skills and expertise in the field. Embracing a proactive mindset, I readily
                         adapt to evolving priorities while skillfully navigating the delicate balance between immediate
                         requirements and long-term strategic objectives.
-                    </i></p>
-                </div>
-                <!-- Horizontal line -->
-                <hr class="bg-black" />
-                <div class="row">
-                    <div class="col-lg-3 mt-2">
-                        <h5>UX Skills</h5>
-                        <ul>
-                            <li><strong>User Experience Interviews</strong><br /> Conducting interviews to gather
+                            </i>
+                        </p>
+                    </div>
+                    <!-- Horizontal line -->
+                    <hr class="bg-black">
+                    <div class="row">
+                        <div class="col-lg-3 mt-2">
+                            <h5>UX Skills</h5>
+                            <ul>
+                                <li>
+                                    <strong>User Experience Interviews</strong>
+                                    <br>
+                                    Conducting interviews to gather
                                 insights and
-                                understand user needs and preferences.</li>
-                            <li><strong>Heuristic Evaluation</strong><br /> Assessing the usability of a product based
+                                understand user needs and preferences.
+                                </li>
+                                <li>
+                                    <strong>Heuristic Evaluation</strong>
+                                    <br>
+                                    Assessing the usability of a product based
                                 on
                                 established
-                                design principles.</li>
-                            <li><strong>Contextual Observation</strong><br /> Observing users in their natural
+                                design principles.
+                                </li>
+                                <li>
+                                    <strong>Contextual Observation</strong>
+                                    <br>
+                                    Observing users in their natural
                                 environment to
                                 gain
-                                insights into their behaviors and challenges.</li>
-                            <li><strong>Information Architecture</strong><br /> Organizing and structuring information
+                                insights into their behaviors and challenges.
+                                </li>
+                                <li>
+                                    <strong>Information Architecture</strong>
+                                    <br>
+                                    Organizing and structuring information
                                 in a way
                                 that
-                                is intuitive and easy for users to navigate.</li>
-                            <li><strong>Surveys and Questionnaires</strong><br /> Gathering quantitative data and
+                                is intuitive and easy for users to navigate.
+                                </li>
+                                <li>
+                                    <strong>Surveys and Questionnaires</strong>
+                                    <br>
+                                    Gathering quantitative data and
                                 feedback from
                                 users
-                                through surveys and questionnaires.</li>
-                            <li><strong>Card Sorting</strong><br />A technique used to determine the optimal
+                                through surveys and questionnaires.
+                                </li>
+                                <li>
+                                    <strong>Card Sorting</strong>
+                                    <br>
+                                    A technique used to determine the optimal
                                 organization and
-                                categorization of information.</li>
-                            <li><strong>Tree Test</strong><br />Evaluating the findability and effectiveness of a
+                                categorization of information.
+                                </li>
+                                <li>
+                                    <strong>Tree Test</strong>
+                                    <br>
+                                    Evaluating the findability and effectiveness of a
                                 website's
                                 navigation
-                                structure.</li>
-                            <li><strong>A/B Testing</strong><br />Comparing two versions of a design to determine which
+                                structure.
+                                </li>
+                                <li>
+                                    <strong>A/B Testing</strong>
+                                    <br>
+                                    Comparing two versions of a design to determine which
                                 performs
                                 better based on user
-                                behavior and preferences.</li>
-                            <li><strong>Usability Study</strong><br />Assessing the usability of a product through
+                                behavior and preferences.
+                                </li>
+                                <li>
+                                    <strong>Usability Study</strong>
+                                    <br>
+                                    Assessing the usability of a product through
                                 testing with
-                                representative users.</li>
-                            <li><strong>User Research</strong><br />Conducting research to gain a deep understanding of
+                                representative users.
+                                </li>
+                                <li>
+                                    <strong>User Research</strong>
+                                    <br>
+                                    Conducting research to gain a deep understanding of
                                 users'
                                 needs,
                                 motivations, and
-                                behaviors.</li>
-                            <li><strong>Interaction Design</strong><br />Designing and defining how users interact with
+                                behaviors.
+                                </li>
+                                <li>
+                                    <strong>Interaction Design</strong>
+                                    <br>
+                                    Designing and defining how users interact with
                                 a
                                 product or
-                                system.</li>
-                            <li><strong>Visual Design</strong><br />Creating visually appealing and engaging designs
+                                system.
+                                </li>
+                                <li>
+                                    <strong>Visual Design</strong>
+                                    <br>
+                                    Creating visually appealing and engaging designs
                                 that align
                                 with
                                 the brand and user
-                                experience.</li>
-                            <li><strong>Graphic Design</strong><br />Utilizing visual elements and typography to
+                                experience.
+                                </li>
+                                <li>
+                                    <strong>Graphic Design</strong>
+                                    <br>
+                                    Utilizing visual elements and typography to
                                 communicate
                                 messages
-                                effectively.</li>
-                        </ul>
-                        <h5>UI Skills</h5>
-                        <ul>
-                            <li><strong>Atomic UI kit Design</strong> <br />Involves creating modular and reusable
+                                effectively.
+                                </li>
+                            </ul>
+                            <h5>UI Skills</h5>
+                            <ul>
+                                <li>
+                                    <strong>Atomic UI kit Design</strong>
+                                    <br>
+                                    Involves creating modular and reusable
                                 design components that can be combined to build consistent and cohesive user interfaces.
-                                It promotes efficiency and consistency in design workflows.</li>
-                            <li><strong>Composition</strong> <br />Refers to the arrangement and organization of visual
+                                It promotes efficiency and consistency in design workflows.
+                                </li>
+                                <li>
+                                    <strong>Composition</strong>
+                                    <br>
+                                    Refers to the arrangement and organization of visual
                                 elements within a design. It involves balancing the hierarchy, spacing, and alignment to
-                                create visually appealing and user-friendly interfaces.</li>
-                            <li><strong>Branding</strong> <br />Encompasses the visual representation and identity of a
+                                create visually appealing and user-friendly interfaces.
+                                </li>
+                                <li>
+                                    <strong>Branding</strong>
+                                    <br>
+                                    Encompasses the visual representation and identity of a
                                 company or product. It involves designing logos, color schemes, and other visual
-                                elements that reflect the brand's personality and values.</li>
-                            <li><strong>Colour Psychology</strong> <br />Understanding the impact of colors on user
+                                elements that reflect the brand's personality and values.
+                                </li>
+                                <li>
+                                    <strong>Colour Psychology</strong>
+                                    <br>
+                                    Understanding the impact of colors on user
                                 perception and emotions. Involves selecting appropriate color palettes that evoke the
-                                desired feelings and convey the intended message.</li>
-                        </ul>
-
-                    </div>
-
-                    <!-- Center -->
-                    <div class="col-lg-9 mt-2">
-                        <!-- Add Timeline -->
-                        <div class="container mb-5">
-                            <div class="row">
-                                <div class="col-md offset-md-1 pb-5">
-                                    <h3>Work Experience</h3>
-                                    <ul class="timeline">
-                                        <li>
-                                            <h6><strong>USER EXPERIENCE INTERN</strong></h6>
-                                            <p>Sep. 2022 - Mar. 2023 | Somerset, UK
-                                                <br>
-                                                <a target="_blank" href="https://www.singerinstruments.com/"
-                                                    class="float-right text-dark"> Singer Instruments
-                                                </a>
-                                            </p>
-
-                                            <p>
-                                                Part of the user experience team working closely with stakeholders in
+                                desired feelings and convey the intended message.
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Center -->
+                        <div class="col-lg-9 mt-2">
+                            <!-- Add Timeline -->
+                            <div class="container mb-5">
+                                <div class="row">
+                                    <div class="col-md offset-md-1 pb-5">
+                                        <h3>Work Experience</h3>
+                                        <ul class="timeline">
+                                            <li>
+                                                <h6>
+                                                    <strong>USER EXPERIENCE INTERN</strong>
+                                                </h6>
+                                                <p>
+                                                    Sep. 2022 - Mar. 2023 | Somerset, UK
+                                                    <br>
+                                                    <a target="_blank" href="https://www.singerinstruments.com/" class="float-right text-dark">
+                                                        Singer Instruments
+                                                    </a>
+                                                </p>
+                                                <p>
+                                                    Part of the user experience team working closely with stakeholders in
                                                 developing
                                                 new features for the existing products.
-
-                                            <p><strong>Responsabilities</strong></p>
-                                            <ul>
-                                                <li>Conducting heuristic evaluations</li>
-                                                <li>Leading usability studies and A/B testing</li>
-                                                <li>Information Architecture</li>
-                                                <li>Getting insights and presenting them to the stakeholders</li>
-                                                <li>Creating and testing different fidelity prototypes</li>
-                                                <li>Creating and analysing questionnaire results</li>
-                                            </ul>
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <h6><strong>GRAPHIC DESIGNER SPECIALIST</strong></h6>
-                                            <p>Feb. 2020 - Sept. 2020 | Luxembourg
-                                                <br>
-                                                <a target="_blank"
-                                                    href="http://www.idcn.info/our-locations/luxembourg.aspx"
-                                                    class="float-right text-dark"> International Dual Career Network
-                                                </a>
-                                            </p>
-
-                                            <p>
-                                                In this position I was working as a graphic designer specialist in the
-                                                communication team.<br>
-                                            <p><strong>Responsabilities</strong></p>
-                                            <ul>
-                                                <li>Newsletter design</li>
-                                                <li>Style sheet definition</li>
-                                                <li>Social media publications</li>
-                                            </ul>
-                                            </p>
-                                        </li>
-
-                                        <li>
-                                            <h6><strong> GRAPHIC DESIGNER AND NEWBORN PHOTOGRAPHER</strong></h6>
-                                            <p> May 2018 - April 2019 | Madrid, Spain
-                                                <br>
-                                                <a target="_blank" href="http://www.daguerrotipas.com/"
-                                                    class="float-right text-dark"> Daguerrotipas </a>
-                                            </p>
-                                            <p><strong>Responsabilities</strong></p>
-                                            <ul>
-                                                <li>Layout newborn book design</li>
-                                                <li>Newborn photoshoot</li>
-                                                <li>Photography post-production</li>
-                                                <li>Photo edition</li>
-                                                <li>Customer acquisition</li>
-                                            </ul>
-                                        </li>
-
-                                        <li>
-                                            <h6><strong>GRAPHIC DESIGNER, POST-PRODUCTION AND PHOTOGRAPHER
-                                                    SPECIALIST</strong>
-                                            </h6>
-                                            <p> Sept. 2013 - August 2016 | Valencia, Spain <br />
-                                                <a target="_blank" href="https://www.facebook.com/emanabyhijasdeberna/"
-                                                    class="float-right text-dark">
-                                                    Emana by Hijas de Berna
-                                                </a>
-                                            </p>
-                                            <p><strong>Responsabilities</strong></p>
-                                            <ul>
-                                                <li>Photo books design</li>
-                                                <li>Event card templates</li>
-                                                <li>Post-production of RAW images</li>
-                                                <li>Photo retouch</li>
-                                                <li>Customer assistance occasionally</li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-
-                                    <h3>Education</h3>
-                                    <ul class="timeline">
-                                        <li>
-                                            <h6><strong> INTERACTION DESIGN AND USER EXPERIENCE (UX) </strong></h6>
-                                            <p> 2021 - 2023 | Master's Degree <br><a target="_blank"
-                                                    href="https://www.uoc.edu/portal/ca/index.html"
-                                                    class="float-right text-dark">
-                                                    Open University of Catalonia
-                                                </a>
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <h6><strong> GOOGLE UX DESIGN SPECIALIZATION • MOOC</strong></h6>
-                                            <p> 2021 | UX Design Certification <br><a target="_blank"
-                                                    href="https://www.coursera.org/account/accomplishments/specialization/certificate/Z8PCCVQLEA68"
-                                                    class="float-right text-dark">
-                                                    Coursera
-                                                </a>
-                                            </p>
-                                        </li>
-
-                                        <li>
-                                            <h6><strong> GRAPHIC DESIGN AND DIGITAL CREATION</strong></h6>
-                                            <p> 2018 - 2021 | Bachelor's Degree <br><a target="_blank"
-                                                    href="https://www.uoc.edu/portal/ca/index.html"
-                                                    class="float-right text-dark">
-                                                    Open University of Catalonia
-                                                </a>
-                                            </p>
-                                        </li>
-
-                                        <li>
-                                            <h6><strong> LIGHT, CAPTURING AND IMAGE PROCESSING</strong></h6>
-                                            <p>2016 - 2018 | Certificate of Hight Education (CertHE) <br /><a
-                                                    target="_blank"
-                                                    href="http://iespf2014.villatic.org/index.php?acepto_politica_de_privacidad=si"
-                                                    class="float-right text-dark">
-                                                    I. E. S. Prince Felipe
-                                                </a>
-                                            </p>
-                                        </li>
-
-                                        <li>
-                                            <h6><strong> More than 25 online courses in design, coding and photography.
+                                                    <p>
+                                                        <strong>Responsabilities</strong>
+                                                    </p>
+                                                    <ul>
+                                                        <li>Conducting heuristic evaluations</li>
+                                                        <li>Leading usability studies and A/B testing</li>
+                                                        <li>Information Architecture</li>
+                                                        <li>Getting insights and presenting them to the stakeholders</li>
+                                                        <li>Creating and testing different fidelity prototypes</li>
+                                                        <li>Creating and analysing questionnaire results</li>
+                                                    </ul>
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <h6>
+                                                    <strong>GRAPHIC DESIGNER SPECIALIST</strong>
+                                                </h6>
+                                                <p>
+                                                    Feb. 2020 - Sept. 2020 | Luxembourg
+                                                    <br>
+                                                    <a target="_blank" href="http://www.idcn.info/our-locations/luxembourg.aspx" class="float-right text-dark">
+                                                        International Dual Career Network
+                                                    </a>
+                                                </p>
+                                                <p>
+                                                    In this position I was working as a graphic designer specialist in the
+                                                communication team.
+                                                    <br>
+                                                    <p>
+                                                        <strong>Responsabilities</strong>
+                                                    </p>
+                                                    <ul>
+                                                        <li>Newsletter design</li>
+                                                        <li>Style sheet definition</li>
+                                                        <li>Social media publications</li>
+                                                    </ul>
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <h6>
+                                                    <strong> GRAPHIC DESIGNER AND NEWBORN PHOTOGRAPHER</strong>
+                                                </h6>
+                                                <p>
+                                                    May 2018 - April 2019 | Madrid, Spain
+                                                    <br>
+                                                    <a target="_blank" href="http://www.daguerrotipas.com/" class="float-right text-dark"> Daguerrotipas</a>
+                                                </p>
+                                                <p>
+                                                    <strong>Responsabilities</strong>
+                                                </p>
+                                                <ul>
+                                                    <li>Layout newborn book design</li>
+                                                    <li>Newborn photoshoot</li>
+                                                    <li>Photography post-production</li>
+                                                    <li>Photo edition</li>
+                                                    <li>Customer acquisition</li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <h6>
+                                                    <strong>
+                                                        GRAPHIC DESIGNER, POST-PRODUCTION AND PHOTOGRAPHER
+                                                    SPECIALIST
+                                                    </strong>
+                                                </h6>
+                                                <p>
+                                                    Sept. 2013 - August 2016 | Valencia, Spain
+                                                    <br>
+                                                    <a target="_blank" href="https://www.facebook.com/emanabyhijasdeberna/" class="float-right text-dark">
+                                                        Emana by Hijas de Berna
+                                                    </a>
+                                                </p>
+                                                <p>
+                                                    <strong>Responsabilities</strong>
+                                                </p>
+                                                <ul>
+                                                    <li>Photo books design</li>
+                                                    <li>Event card templates</li>
+                                                    <li>Post-production of RAW images</li>
+                                                    <li>Photo retouch</li>
+                                                    <li>Customer assistance occasionally</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                        <h3>Education</h3>
+                                        <ul class="timeline">
+                                            <li>
+                                                <h6>
+                                                    <strong> INTERACTION DESIGN AND USER EXPERIENCE (UX)</strong>
+                                                </h6>
+                                                <p>
+                                                    2021 - 2023 | Master's Degree
+                                                    <br>
+                                                    <a target="_blank" href="https://www.uoc.edu/portal/ca/index.html" class="float-right text-dark">
+                                                        Open University of Catalonia
+                                                    </a>
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <h6>
+                                                    <strong> GOOGLE UX DESIGN SPECIALIZATION • MOOC</strong>
+                                                </h6>
+                                                <p>
+                                                    2021 | UX Design Certification
+                                                    <br>
+                                                    <a target="_blank" href="https://www.coursera.org/account/accomplishments/specialization/certificate/Z8PCCVQLEA68" class="float-right text-dark">
+                                                        Coursera
+                                                    </a>
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <h6>
+                                                    <strong> GRAPHIC DESIGN AND DIGITAL CREATION</strong>
+                                                </h6>
+                                                <p>
+                                                    2018 - 2021 | Bachelor's Degree
+                                                    <br>
+                                                    <a target="_blank" href="https://www.uoc.edu/portal/ca/index.html" class="float-right text-dark">
+                                                        Open University of Catalonia
+                                                    </a>
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <h6>
+                                                    <strong> LIGHT, CAPTURING AND IMAGE PROCESSING</strong>
+                                                </h6>
+                                                <p>
+                                                    2016 - 2018 | Certificate of Hight Education (CertHE)
+                                                    <br>
+                                                    <a target="_blank" href="http://iespf2014.villatic.org/index.php?acepto_politica_de_privacidad=si" class="float-right text-dark">
+                                                        I. E. S. Prince Felipe
+                                                    </a>
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <h6>
+                                                    <strong>
+                                                        More than 25 online courses in design, coding and photography.
                                                     Please
                                                     check my
-                                                    <a target="_blank" href="https://www.linkedin.com/in/mariabalos"
-                                                        class="float-right text-dark">
-                                                        LinkedIn
-                                                    </a> for more details.
-                                                </strong> </h6>
-                                        </li>
-                                    </ul>
-
-                                    <h5>Software</h5>
-                                    <p>
-                                        Figma •
+                                                        <a target="_blank" href="https://www.linkedin.com/in/mariabalos" class="float-right text-dark">
+                                                            LinkedIn
+                                                        </a>
+                                                        for more details.
+                                                    </strong>
+                                                </h6>
+                                            </li>
+                                        </ul>
+                                        <h5>Software</h5>
+                                        <p>
+                                            Figma •
                                         Miro •
                                         Optimal Workshop •
                                         Fibery •
@@ -337,27 +426,26 @@
                                         Adobe Creative Cloud: XD, Photoshop, Premiere, Bridge, Lightroom, Indesign,
                                         Illustrator
                                         Sketch
-                                    </p>
-
-                                    <h5>Code</h5>
-                                    <p>
-                                        Python •
+                                        </p>
+                                        <h5>Code</h5>
+                                        <p>
+                                            Python •
                                         HTML •
                                         CSS •
                                         Bootstrap •
                                         JavaScript •
                                         P5.JS •
                                         Bash
-                                    </p>
-
-                                    <h5>Languages</h5>
-                                    <p>
-                                        English •
+                                        </p>
+                                        <h5>Languages</h5>
+                                        <p>
+                                            English •
                                         Spanish •
                                         Romanian •
                                         French •
                                         Catalan
-                                    </p>
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -365,40 +453,32 @@
                 </div>
             </div>
         </div>
-    </div>
-
-
-    <!-- Footer -->
-    <footer class="row  bg-dark text-center" id="footer">
-        <div class="col-md-4 p-4">
-            <p class="contact">
-                <a target="_blank"
-                    class="col-md-1 fa fa-at contact link-light no-underline">&nbsp;&nbsp;mariabalos16@gmail.com</a><br />
-                <a target="_blank"
-                    class="col-md-1 fa fa-phone contact link-light no-underline">&nbsp;&nbsp;0044&nbsp7899&nbsp866&nbsp210</a>
-            </p>
-        </div>
-
-        <!-- Middle -->
-        <div class="col-md-4 p-4">
-            <a href="index.html"><img src="img/logo_white.png" alt="" width="80"></a>
-            <small class="d-block text-muted"> Design &amp; Code by Maria Balos © 2023
-            </small>
-        </div>
-
-        <!-- Social Media buttons -->
-        <div class="col-md-4 p-4">
-            <a target="_blank" class="m-3 fa fa-instagram link-light no-underline"
-                href="https://www.instagram.com/mbalos.design/"></a>
-            <a target="_blank" class="m-3 fa fa-linkedin link-light no-underline"
-                href="https://www.linkedin.com/in/mariabalos"></a>
-            <a target="_blank" class="m-3 fa fa-facebook link-light no-underline"
-                href="https://www.facebook.com/magdalena.m.balos"></a>
-            <a target="_blank" class="m-3 fa fa-dribbble link-light no-underline"
-                href="https://dribbble.com/mbalos/shots"></a>
-            <a target="_blank" class="m-3 fa fa-github link-light no-underline" href="https://github.com/mbalos16"></a>
-        </div>
-    </footer>
-</body>
-
+        <!-- Footer -->
+        <footer class="row  bg-dark text-center" id="footer">
+            <div class="col-md-4 p-4">
+                <p class="contact">
+                    <a target="_blank" class="col-md-1 fa fa-at contact link-light no-underline">&nbsp;&nbsp;mariabalos16@gmail.com</a>
+                    <br>
+                    <a target="_blank" class="col-md-1 fa fa-phone contact link-light no-underline">&nbsp;&nbsp;0044&nbsp7899&nbsp866&nbsp210</a>
+                </p>
+            </div>
+            <!-- Middle -->
+            <div class="col-md-4 p-4">
+                <a href="index.html">
+                    <img src="img/logo_white.png" alt="" width="80">
+                </a>
+                <small class="d-block text-muted">
+                    Design &amp; Code by Maria Balos © 2023
+                </small>
+            </div>
+            <!-- Social Media buttons -->
+            <div class="col-md-4 p-4">
+                <a target="_blank" class="m-3 fa fa-instagram link-light no-underline" href="https://www.instagram.com/mbalos.design/"></a>
+                <a target="_blank" class="m-3 fa fa-linkedin link-light no-underline" href="https://www.linkedin.com/in/mariabalos"></a>
+                <a target="_blank" class="m-3 fa fa-facebook link-light no-underline" href="https://www.facebook.com/magdalena.m.balos"></a>
+                <a target="_blank" class="m-3 fa fa-dribbble link-light no-underline" href="https://dribbble.com/mbalos/shots"></a>
+                <a target="_blank" class="m-3 fa fa-github link-light no-underline" href="https://github.com/mbalos16"></a>
+            </div>
+        </footer>
+    </body>
 </html>
