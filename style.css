@@ -15,6 +15,7 @@ a.no-underline {
 /* About timeline */
 ul.timeline {
     list-style: none;
+    --icon-space: 0em;
   }
   ul.timeline > li {
     position: relative;
