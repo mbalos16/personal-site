@@ -19,12 +19,12 @@ ul.timeline {
     --icon-space: 0em;
 }
 
-ul.timeline>li {
+ul.timeline > li {
     position: relative;
     padding: 10px;
 }
 
-ul.timeline>li:before {
+ul.timeline > li:before {
     content: '';
     width: 20px;
     height: 20px;
@@ -38,7 +38,7 @@ ul.timeline>li:before {
     z-index: 400;
 }
 
-ul.timeline>li:not(:last-child):after {
+ul.timeline > li:not(:last-child):after {
     content: '';
     width: 2px;
     height: 100%;
@@ -80,12 +80,12 @@ div .btn {
     text-wrap: balance;
 }
 
-nav>div>.fa {
+nav > div > .fa {
     margin: auto;
 }
 
 .menuText:hover,
-nav>div>.fa:hover {
+nav > div > .fa:hover {
     border-radius: 10px;
     transform: scale(1.05);
 }
@@ -129,6 +129,10 @@ nav>div>.fa:hover {
 #footer {
     width: 100%;
     margin: 0;
+}
+
+#footer .contact > div {
+    text-align: left;
 }
 
 .navbar li.active {
@@ -178,7 +182,7 @@ ul {
     color: #1e3050;
 }
 
-li:before {
+ul > li:before {
     content: "\f111";
     /* FontAwesome Unicode */
     font: var(--fa-font-regular);
@@ -235,4 +239,15 @@ li:before {
 .responsabilities {
     color: #1e3050;
     font-size: small;
+}
+
+.pdfviewer {
+    width: 100%;
+    height: 900px;
+}
+
+.videoWrapper iframe {
+    width: 560;
+    height: 315;
+    border: 0
 }
