@@ -178,7 +178,6 @@ nav > div > .fa:hover {
 ul {
     --icon-space: 1.3em;
     list-style: none;
-    color: #1e3050;
 }
 
 ul > li:before {
