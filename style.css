@@ -249,3 +249,69 @@ ul > li:before {
     height: 315;
     border: 0
 }
+
+.first_paragraph {
+    color: #1e3050;
+}
+
+.research_question {
+    border-left: 4px solid #C93C20;
+    border-radius: 8px;
+    padding-left: 10px; 
+    font-size:x-large;
+    color: #3C322B;
+}
+
+.quotation_marks {
+    font-weight: 900;
+    font-size: larger;
+
+}
+
+.secondary_questions {
+    font-weight: 300;
+    font-size: small;
+}
+
+.citation{
+    color:#D7CAC1;
+    font-style: italic;
+}
+
+.citation_user{
+    color: #1e3050;
+    font-style: italic;
+}
+
+.call_action_section{
+    background-color: #1e3050;
+    color: #6D788B;
+    margin: 30px;
+    padding: 50px;
+}
+
+.subcategory{
+    font-weight: 600;
+    color: #D7CAC1;
+}
+
+.row.align-items-center {
+    display: flex;
+    align-items: center;
+}
+
+.clear_text{
+    color: #D7CAC1;
+    font-weight: 100;
+}
+
+.personal{
+    font-weight: 300;
+    font-style: italic;
+    color: #3C322B;
+}
+
+.image_call_action{
+    width: 100%;
+    height: fit-content;
+}
