@@ -98,7 +98,7 @@ nav > div > .fa:hover {
 }
 
 .card {
-    border-radius: 4px;
+    border-radius: 2px;
     background: #D7CAC1;
     transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
     cursor: pointer;
