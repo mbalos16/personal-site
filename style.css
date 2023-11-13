@@ -302,10 +302,6 @@ ul > li:before {
     color: #D7CAC1;
 }
 
-.row.align-items-center {
-    display: flex;
-    align-items: center;
-}
 
 .clear_text{
     color: #D7CAC1;
