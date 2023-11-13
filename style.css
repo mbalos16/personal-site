@@ -169,8 +169,8 @@ nav > div > .fa:hover {
 }
 
 .image_preferences {
-    border-radius: 5px;
-    box-shadow: 0 4px 4px 0 #3C322B, 0 6px 20px 0 #3C322B;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px 1px #D7CAC1, 0 2px 5px 0 #D7CAC1;
     width: 100%;
     height: auto;
 }
