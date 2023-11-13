@@ -193,6 +193,7 @@ ul > li:before {
 
 .category {
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 /* Remove bullets from li navbar */
@@ -285,8 +286,8 @@ ul > li:before {
 .call_action_section{
     background-color: #1e3050;
     color: #6D788B;
-    margin: 30px;
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .subcategory{
