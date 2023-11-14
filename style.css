@@ -276,8 +276,7 @@ ul > li:before {
 }
 
 .secondary_questions {
-    font-weight: 300;
-    font-size: small;
+    font-weight: 200;
 }
 
 .citation{
@@ -286,7 +285,7 @@ ul > li:before {
 }
 
 .citation_user{
-    color: #1e3050;
+    font-weight: 200;
     font-style: italic;
 }
 
