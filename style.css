@@ -69,6 +69,11 @@ div .btn {
     height: 100%;
 }
 
+
+.category div .row .videoWrapper {
+    padding-left: 10px;
+}
+
 .container {
     flex: 1;
 }
@@ -320,4 +325,13 @@ ul > li:before {
 .affinity_diagram_description{
     font-weight: 100;
 
+}
+
+.img_insights_craft {
+    width: 100%;
+
+}
+
+.insightcraft_prototype{
+    padding: 0px 0px 6px 0px;
 }
