@@ -5,7 +5,6 @@ body {
     flex-direction: column;
     min-height: 100vh;
     color: #3C322B !important;
-    text-wrap: balance !important;
 }
 
 /* Remove links underline */
@@ -334,4 +333,14 @@ ul > li:before {
 
 .insightcraft_prototype{
     padding: 0px 0px 6px 0px;
+}
+
+.skill-tag {
+    background: #D7CAC1;
+    color: #3C322B;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: small;
+    margin: 3px 2px;
+    display: inline-block;
 }
