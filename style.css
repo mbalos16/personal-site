@@ -140,8 +140,13 @@ nav > div > .fa:hover {
     margin: 0;
 }
 
-#footer .contact > div {
-    text-align: left;
+#footer {
+    align-items: center;
+}
+
+#footer .contact a {
+    font-size: small;
+    margin-bottom: 4px;
 }
 
 .navbar li.active {
