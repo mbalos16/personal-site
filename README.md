@@ -39,5 +39,6 @@ open index.html
 - [github.com/mbalos16](https://github.com/mbalos16)
 
 ---
+*Special thanks to my colleagues from the MSc in Deep Learning and Generative AI for their guidance and feedback on improving this site.*
 
-**Note:** AI tools were used to assist with proofreading and bulk edits. The content, design decisions, and code are my own.
+**Final Note:** AI tools were used to assist with proofreading and bulk edits. The content, design decisions, and code are my own.
