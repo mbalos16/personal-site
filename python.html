@@ -88,12 +88,7 @@
                     <h1>
                         Data Science
                     </h1>
-                    <p class="second_level">Data science projects, ML experiments, and Python programs</p>
-                </div>
-
-                <!-- Data Science Projects -->
-                <div class="row mt-4 mb-2">
-                    <h2 class="title">Data Science Projects</h2>
+                    <p class="second_level">Data science projects, ML experiments, and Python programs</p
                     <hr>
                     <p class="first_paragraph">Some of these projects — the RAG Educational Assistant and the Datathon — were developed as part of my Intensive Program in Data Science and Master's in Deep Learning & Generative AI at Datamecum. The rest are personal projects.</p>
                 </div>
@@ -103,9 +98,7 @@
                             <h3 class="mt-3">Manifold HyperConnections for Computer Vision <em>(in progress)</em></h3>
                             <p class="second_level">Computer Vision · Research · PyTorch</p>
                             <p>
-                                Replicating and extending the results from the <a href="https://arxiv.org/abs/2512.24880" target="_blank">Manifold HyperConnections paper</a>
-                                (arXiv:2512.24880) for computer vision tasks. Original work exploring how mHC
-                                applies beyond the settings covered in the paper.
+                                Replicating and extending <a href="https://arxiv.org/abs/2512.24880" target="_blank">Manifold HyperConnections</a> (arXiv:2512.24880) for computer vision — original work exploring how mHC applies beyond the settings covered in the paper. Currently benchmarked on ImageNet and CIFAR-100, with a fully configurable CLI built on argparse to run and reproduce experiments.
                             </p>
                             <p>
                                 <a href="https://github.com/mbalos16/mhc-conv" target="_blank">GitHub</a>
@@ -117,8 +110,7 @@
                             <h3 class="mt-3">CON(e)VOLUTION — From LeNet to Vision Transformers</h3>
                             <p class="second_level">Computer Vision · PyTorch</p>
                             <p>
-                                10 CNN architectures implemented from scratch in PyTorch — from LeNet to ViT — including custom variations,
-                                all benchmarked on the NEU Surface Defects dataset with a shared modular trainer and CLI interface.
+                                10 CNN architectures implemented from scratch in PyTorch — BaselineCNN, LeNet, LeNetMod, LeNetModNorm, LeNetModNorm2, AlexNet, GoogLeNet, ResNet, DenseNet, and ViT — all benchmarked on the NEU Surface Defects dataset. Each model shares a modular trainer and CLI interface, making it straightforward to run and compare experiments. Paired with a deep-dive Medium article walking through the full evolution from early CNNs to Vision Transformers.
                             </p>
                             <p>
                                 <a href="https://github.com/mbalos16/image_classification" target="_blank">GitHub</a> ·
@@ -133,8 +125,7 @@
                             <h3 class="mt-3">Ryanair Timecapsule</h3>
                             <p class="second_level">Data Collection · Open Source</p>
                             <p>
-                                Reverse-engineered the Ryanair API (Fare-Finder and Booking endpoints) to collect daily flight prices.
-                                Released as an open-source Python package with tests, CLI scripts, and a proper src layout.
+                                Built a daily flight price tracker by reverse-engineering Ryanair's Fare-Finder and Booking APIs — designed to feed ML models for flight price forecasting. Supports flexible querying across markets, date ranges, and passenger configurations. Released as an open-source Python package with tests, CLI, and a proper src layout.
                             </p>
                             <p>
                                 <a href="https://github.com/mbalos16/ryanair_timecapsule" target="_blank">GitHub</a>
@@ -146,9 +137,7 @@
                             <h3 class="mt-3">RAG-Driven Educational Assistant</h3>
                             <p class="second_level">Master's Dissertation — Deep Learning & Generative AI</p>
                             <p>
-                                Full-stack RAG application that ingested ~364 hours of video content (91 lessons) via Whisper transcriptions.
-                                Built with LangChain, ChromaDB, GPT-4o-mini and Claude-3-Haiku, with a gamified student leaderboard
-                                benchmarking human performance against the RAG system.
+                                Turned 364h of video content (91 lessons) into an instantly queryable knowledge base — Whisper for transcription, LangChain + ChromaDB for retrieval, GPT-4o-mini and Claude-3-Haiku for responses. Deployed as a Flask web app with a CLI, used by real Datamecum students and benchmarked against them on a gamified leaderboard.
                             </p>
                             <p>
                                 <a href="https://github.com/mbalos16/datamecum_tfm" target="_blank">GitHub</a> ·
@@ -163,9 +152,7 @@
                             <h3 class="mt-3">Datamecum Datathon — 1st Place</h3>
                             <p class="second_level">Machine Learning · Competition</p>
                             <p>
-                                Won 1st place in a Kaggle-style binary classification competition with an ensemble of
-                                Random Forest and XGBoost (AUC 0.9851). Included EDA, self-organising maps,
-                                correlation analysis, and ensemble modelling.
+                                1st place in a Kaggle-style binary classification datathon. Built an ensemble of Random Forest and XGBoost (AUC 0.9851) — work included EDA, self-organising maps, correlation analysis, and iterative ensemble tuning.
                             </p>
                             <p>
                                 <a href="https://youtu.be/kcrQabXlEoU" target="_blank">Presentation video</a>
@@ -177,7 +164,6 @@
                 <!-- Python Exercises -->
                 <div class="row mt-5 mb-2">
                     <h2 class="title">Python Exercises</h2>
-                    <hr>
                     <div>
                         <p class="first_paragraph">
                             Throughout my journey of learning Python, I have created several interesting projects.
